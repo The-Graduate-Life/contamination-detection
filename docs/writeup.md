@@ -26,7 +26,7 @@ The supporting pairs are 0.018% of analysed pairs and 0.38% of the 1,008,951-pai
 | Coat protein | 98.5% | 1.5% |
 
 ## Interpretation
-1. **A divergent CPPV2 isolate infecting peanut.** The coat protein (98.5%) and RdRp (96.3%) are very close to CPPV2, and P0, the suppressor of RNA silencing, is typically the most variable polerovirus protein. Poleroviruses are aphid-transmitted and phloem-limited, and a nodule sample can carry phloem sap. That would be a biological finding worth reporting, not a contamination artefact.
+**A divergent CPPV2 isolate infecting peanut.** The coat protein (98.5%) and RdRp (96.3%) are very close to CPPV2, and P0, the suppressor of RNA silencing, is typically the most variable polerovirus protein. Poleroviruses are aphid-transmitted and phloem-limited, and a nodule sample can carry phloem sap. That would be a biological finding worth reporting, not a contamination artefact.
 - **Limitations:**
   - Only one complete CPPV2 reference exists.
   - The contig hasn't been confirmed by RT-PCR or Sanger sequencing.
