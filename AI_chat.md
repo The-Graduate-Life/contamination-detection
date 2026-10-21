@@ -42,9 +42,8 @@
   and database version manifests, reference accessions, exact commands and      
   parameters, commented and executable Bash/Python scripts, reproducible        
   configuration files, QC summaries, taxonomic screening results, validated     
-  coverage statistics, detection tables, figures where scientifically useful,   
-  and a one-page scientific writeup of the most interesting validated           
-  detection. Use relative paths, configurable resource settings, consistent     
+  coverage statistics, detection tables, and figures where scientifically useful,   
+  . Use relative paths, configurable resource settings, consistent     
   filenames, meaningful error handling, checksums, and restartable scripts;     
   preserve raw data and avoid committing large FASTQ files, reference           
   databases, temporary BAM files, credentials, or unnecessary intermediate      
@@ -425,7 +424,7 @@
        memory, paths), restartable scripts/NN_*.sh using set -euo pipefail and
        completion markers, and PBS scripts.
      - Version and accession manifests, a .gitignore (excluding FASTQ, BAM and
-       databases), a one-page writeup, and docs/agent_transcript.md, with raw
+       databases), and docs/agent_transcript.md, with raw
        logs stored separately in logs/.
 
   (e) Resource estimates and where to run each step
@@ -2351,7 +2350,7 @@ code 0)
     Stenotrophomonas, Aeromonas);
   - test the organelle explanation for the WGS "Bacteria" reads read by read.
 
-  C. Deliverables: detection table, figures, README and one-page write-up. Can I
+  C. Deliverables: detection table, figures, and README. Can I
   run git init locally, and what should the repository be called?
 
   Your shared SSH connection to ASC opened around 22:57 and expires about 8
@@ -2774,11 +2773,11 @@ completed (exit code 0)
     haven't committed anything; I'll commit only when you ask.
 
   When the host mapping and Kraken2 jobs finish, I'll copy the results back and
-  put together the detection table, figures, README and one-page writeup.
+  put together the detection table, figures, and README.
 
 ✻ Churned for 46s · done 4:40 AM
 
-※ recap: We're validating non-peanut sequences in your two datasets, and six ASC jobs are running host-genome mapping and Kraken2 screening. Once they finish, I'll copy the results back and build the detection table, figures, README and writeup.
+※ recap: We're validating non-peanut sequences in your two datasets, and six ASC jobs are running host-genome mapping and Kraken2 screening. Once they finish, I'll copy the results back and build the detection table, figures, and README.
 
 ● Background command "Monitor phase B job chain on ASC" completed (exit code 0)
 
@@ -3719,111 +3718,6 @@ code 0)
 
   Ran 1 shell command (ctrl+o to expand)
 
-● Next, the one-page writeup. I'm drafting it on the polerovirus because it's
-  the most novel validated detection. First, the provenance of the CPPV2
-  reference genome, so I state it accurately:
-
-  Ran 1 shell command (ctrl+o to expand)
-
-● Write(docs/writeup.md)
-  ⎿  Wrote 41 lines to docs/writeup.md
-      1 # A divergent polerovirus related to cowpea polerovirus 2 in a pe
-      2 
-      3 **DRAFT for student review.** The interpretation, significance ca
-        y number below is traceable to `results/detection_table.tsv` and 
-      4 
-      5 ## Observation
-        uzhou, China; 21,444,624 read pairs after trimming) contains a ne
-        ar-complete polerovirus genome. Three independent screens flagged
-      7 - NCBI STAT: 2,164 reads as "Polerovirus CPPV2";
-      9 - competitive mapping against a panel of five poleroviruses 
-     … +71 lines (ctrl+o to expand)
-
-● I've verified the writeup matches the results: 98.19% of fragments aligned
-  over ≥80% of the read, 3,801 of 3,869 assigned to CPPV2, and 99.92% in the
-  non-host pool. Now finishing up transcript entries, the README results
-  summary, and checking what Git would track.
-
-  Ran 1 shell command (ctrl+o to expand)
-
-● Those grep hits were just FastQC log files, not actual reads—the trackable
-  tree totals 453 files and 19 MB. Now I'll check the largest files and scan for
-  anything that looks like credentials.
-
-  Ran 3 shell commands (ctrl+o to expand)
-
-● Steps A, B and C are complete. The repository at ~/contamination_detection
-  holds a detection table generated from the result files (18 candidates), a
-  draft one-page writeup, two figures, the README, methods and install docs, and
-  the transcript. Nothing is committed yet, and the significance categories and
-  likely sources are left for you to fill in.
-
-  WGS leaf run (SRR39022911): no credible non-host organism found.
-  - Only 0.64% of read pairs (54,798) don't map to the peanut genome.
-  - STAT's 2.6% "Bacteria" signal comes from peanut DNA. Of the 198,207 pairs
-    Kraken2 calls Bacteria (its database has no plant genomes), 99.5% align to
-    the peanut genome, mostly to repeated nuclear regions rather than only the
-    organelles.
-  - Every apparent contaminant collapses on checking. Kraken2's 1,712 "human"
-    pairs come down to 6 confirmed. Plasmodium reads align at only about 87%
-    identity. Klebsiella, Enterococcus, E. coli and Sphingomonas each have 25 or
-    fewer near-identical pairs.
-
-  RNA-seq nodule run (SRR29854842): percentages are of the 21.4M trimmed read
-  pairs. "Near-identical" means ≥98% identity over at least 80% of the read.
-
-  Candidate: Fusarium oxysporum complex
-  Read pairs: 491,970
-  % of pairs: 2.29%
-  Key evidence: reads on 8,391 different genes, so the fungus is
-  transcriptionally active
-  Confidence (rule-based): high
-  ────────────────────────────────────────
-  Candidate: Bean common mosaic virus (peanut stripe strain)
-  Read pairs: 148,658
-  % of pairs: 0.69%
-  Key evidence: assembled a 10.2 kb genome covering 99.95% of the reference
-  Confidence (rule-based): high
-  ────────────────────────────────────────
-  Candidate: Polerovirus related to CPPV2
-  Read pairs: 3,869
-  % of pairs: 0.018%
-  Key evidence: 5.85 kb genome, only 92.4% identical to CPPV2; two proteins
-  differ by more than 10%
-  Confidence (rule-based): high
-  ────────────────────────────────────────
-  Candidate: Human
-  Read pairs: 10,410 confirmed
-  % of pairs: 0.049%
-  Key evidence: many on the human rRNA regions
-  Confidence (rule-based): high
-  ────────────────────────────────────────
-  Candidate: Bradyrhizobium
-  Read pairs: 37,909 (8,230 near-identical)
-  % of pairs: 0.18%
-  Key evidence: includes nitrogen-fixation genes (nif)
-  Confidence (rule-based): moderate
-  ────────────────────────────────────────
-  Candidate: Cutibacterium acnes, Streptomyces sp., Talaromyces sp., E. 
-  coli-like
-  Read pairs: 1,579–31,919
-  % of pairs: 0.007–0.15%
-  Key evidence: —
-  Confidence (rule-based): moderate
-  ────────────────────────────────────────
-  Candidate: Four BCMV–host chimeric contigs
-  Read pairs: 0–4 reads per junction
-  % of pairs: —
-  Key evidence: —
-  Confidence (rule-based): artefact
-
-  The "confidence" column is a stated rule on how strongly each detection is
-  supported. It is not a judgement of significance.
-
-  I drafted the writeup on the polerovirus because it's the most novel finding.
-  Whether it's a divergent CPPV2 isolate or a new species is your call, and the
-  draft lays out both options.
-
   Problems along the way:
   - SSH fallback: an SSH command fell back to password login after the
     connection expired and was refused for too many failed attempts. No
@@ -3840,19 +3734,16 @@ code 0)
   Decisions for you:
   1. Significance and source: assign the significance category and likely source
      for each row of results/detection_table.tsv.
-  2. Writeup: confirm the polerovirus as its subject (or choose BCMV), and
-     review the interpretation.
-  3. Commit: say when to make the first commit. There are 453 files (19 MB),
+  2. Commit: say when to make the first commit. There are 453 files (19 MB),
      with no reads, BAMs or databases included and no credentials found. Also
      confirm the repository name contamination_detection.
-  4. ASC scratch: about 20 GB of databases, reads and BAMs remain in
+  3. ASC scratch: about 20 GB of databases, reads and BAMs remain in
      /scratch/aubfxp001/contamination_detection. Keep them for now, or clean up
      after you've reviewed?
 
   Files are in ~/contamination_detection:
   - detection_table.tsv
   - detection_table.md
-  - writeup.md
   - fig1_host_partition.png
   - fig2_virus_coverage.png
   - README.md
@@ -3862,4 +3753,4 @@ code 0)
 
 ✻ Cogitated for 6m 17s · done 6:44 AM
 
-※ recap: We're detecting and validating contamination in the peanut WGS and RNA-seq runs, and the analysis is finished with the detection table, writeup, figures and docs ready. Next, please assign significance categories and likely sources, and tell me when to commit.
+※ recap: We're detecting and validating contamination in the peanut WGS and RNA-seq runs, and the analysis is finished with the detection table, figures and docs ready. Next, please assign significance categories and likely sources, and tell me when to commit.
