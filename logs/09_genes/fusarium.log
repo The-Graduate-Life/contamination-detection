@@ -1,0 +1,12 @@
+[2026-10-21 04:21:04] SRR29854842/fusarium: 423235 fragments identity>=0.98 & aligned>=80%, 68735 others
+[INFO][0m 423235 patterns loaded from file
+[INFO][0m 423235 patterns loaded from file
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+run	group	label	stratum	min_identity	fragments_realigned	genes_annotated	genes_ge1	genes_ge5	pct_fragments_rRNA	pct_fragments_intergenic
+SRR29854842	fusarium	Fol_4287	high	0.98	414234	21353	8391	5833	7.28	6.07
+[INFO][0m 68735 patterns loaded from file
+[INFO][0m 68735 patterns loaded from file
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+run	group	label	stratum	min_identity	fragments_realigned	genes_annotated	genes_ge1	genes_ge5	pct_fragments_rRNA	pct_fragments_intergenic
+SRR29854842	fusarium	Fol_4287	low	0.98	56300	21353	3501	1310	5.42	10.93
+[2026-10-21 04:34:41] Step 9 complete: results/04_validation/SRR29854842/genes/Fol_4287/gene_summary.tsv

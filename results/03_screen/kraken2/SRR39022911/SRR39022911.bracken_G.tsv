@@ -1,0 +1,17 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Homo	9605	G	1529	178	1707	0.57282
+Plasmodium	5820	G	618	2	620	0.20805
+Larkinella	332157	G	259	14	273	0.09161
+Spirosoma	107	G	15	0	15	0.00503
+Flavobacterium	237	G	14	1	15	0.00503
+Alkalitalea	1193324	G	27	1	28	0.00940
+Pantoea	53335	G	10	12	22	0.00738
+Pseudoalteromonas	53246	G	40	33	73	0.02450
+Pseudomonas	286	G	25	21	46	0.01544
+Xanthomonas	338	G	13	5	18	0.00604
+Haemophilus	724	G	14	0	14	0.00470
+Candidatus Comchoanobacter	2975286	G	10	0	10	0.00336
+Sphingomonas	13687	G	17	12	29	0.00973
+Mycobacterium	1763	G	19	34	53	0.01779
+Cutibacterium	1912216	G	17	5	22	0.00738
+Streptomyces	1883	G	19	10	29	0.00973

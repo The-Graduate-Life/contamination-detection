@@ -1,0 +1,13 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Homo sapiens	9606	S	1529	183	1712	0.59569
+Plasmodium coatneyi	208452	S	584	7	591	0.20564
+Plasmodium knowlesi	5850	S	20	0	20	0.00696
+Larkinella roseola	2674997	S	259	27	286	0.09951
+Spirosoma sp. SC4-14	3128900	S	12	3	15	0.00522
+Flavobacterium sp. CLA17	2724135	S	12	3	15	0.00522
+Alkalitalea saponilacus	889453	S	27	2	29	0.01009
+Pseudoalteromonas undina	43660	S	40	57	97	0.03375
+Xanthomonas albilineans	29447	S	13	10	23	0.00800
+Candidatus Comchoanobacter bicostacola	2919598	S	10	1	11	0.00383
+Sphingomonas melonis	152682	S	14	19	33	0.01148
+Cutibacterium acnes	1747	S	16	21	37	0.01287

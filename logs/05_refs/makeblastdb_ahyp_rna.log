@@ -1,0 +1,11 @@
+
+
+Building a new DB, current time: 10/21/2026 01:46:50
+New DB name:   /home/fp/contamination_detection/references/validation/blastdb/ahyp_rna
+New DB title:  references/validation/src/Ahyp_Tifrunner_gnm2_rna.fasta
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 173087 sequences in 18.1762 seconds.
+
+

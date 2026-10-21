@@ -1,0 +1,5 @@
+group	stageA_fragments	in_nonhost_pool	pct_of_group_in_pool	pct_of_nonhost_pool	high_id_fragments	high_id_in_pool	nonhost_pool_pairs
+fusarium	491970	487257	99.04	48.2934	423235	419352	1008951
+potyvirus	148658	147638	99.31	14.6328	147910	146950	1008951
+bradyrhizobium	37909	37854	99.85	3.7518	8230	8192	1008951
+polerovirus	3869	3866	99.92	0.3832	422	420	1008951

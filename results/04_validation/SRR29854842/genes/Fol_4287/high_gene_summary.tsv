@@ -1,0 +1,2 @@
+run	group	label	stratum	min_identity	fragments_realigned	genes_annotated	genes_ge1	genes_ge5	pct_fragments_rRNA	pct_fragments_intergenic
+SRR29854842	fusarium	Fol_4287	high	0.98	414234	21353	8391	5833	7.28	6.07

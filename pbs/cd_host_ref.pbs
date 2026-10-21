@@ -1,0 +1,14 @@
+#!/bin/bash
+# ASC job: host reference (GCF_003086295.3 + MW448460.1): Bowtie2 + HISAT2 indexes
+#PBS -N cd_host_ref
+#PBS -q medium
+#PBS -l select=1:ncpus=16:mem=16gb
+#PBS -l walltime=12:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+mkdir -p logs/10_host
+time bash scripts/10_host_reference.sh > logs/10_host/asc_run.log 2>&1
+rc=$?
+echo "exit $rc"
+exit $rc   # propagate status so afterok dependencies behave

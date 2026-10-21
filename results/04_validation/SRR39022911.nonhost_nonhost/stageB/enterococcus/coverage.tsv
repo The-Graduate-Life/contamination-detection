@@ -1,0 +1,4 @@
+#rname	startpos	endpos	numreads	covbases	coverage	meandepth	meanbaseq	meanmapq
+NZ_KB944666.1	1	2806553	8	522	0.0185993	0.000236945	33.4	0
+NZ_KB944667.1	1	4841	0	0	0	0	0	0
+NZ_KB944668.1	1	58987	0	0	0	0	0	0

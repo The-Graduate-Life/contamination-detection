@@ -1,0 +1,16 @@
+taxa under Bacteria: 5888
+run	set	host_class	fragments	pct_of_set
+SRR39022911	domain_only	ambiguous_nuclear	58723	94.99
+SRR39022911	domain_only	ambiguous_organelle_primary	2313	3.74
+SRR39022911	domain_only	nuclear_confident	695	1.12
+SRR39022911	domain_only	unmapped	76	0.12
+SRR39022911	domain_only	organellar_confident	13	0.02
+SRR39022911	domain_only	TOTAL_in_set	61820	100.00
+run	set	host_class	fragments	pct_of_set
+SRR39022911	bacteria_clade	ambiguous_nuclear	164315	82.90
+SRR39022911	bacteria_clade	ambiguous_organelle_primary	24405	12.31
+SRR39022911	bacteria_clade	nuclear_confident	8514	4.30
+SRR39022911	bacteria_clade	unmapped	960	0.48
+SRR39022911	bacteria_clade	organellar_confident	13	0.01
+SRR39022911	bacteria_clade	TOTAL_in_set	198207	100.00
+[2026-10-21 06:40:30] Step 15 complete for SRR39022911

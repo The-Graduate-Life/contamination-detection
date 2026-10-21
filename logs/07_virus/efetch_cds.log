@@ -1,0 +1,32 @@
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+ ERROR:  curl command failed ( Wed Oct 21 04:14:12 CDT 2026 ) with: 56
+-X POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi -d db=nuccore&id=NC_034247.1&rettype=fasta_cds_aa&retmode=text&tool=edirect&edirect=26.0&edirect_os=Linux&email=fp%40Fritzner.localdomain
+HTTP/1.0 200 OK
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+ ERROR:  curl command failed ( Wed Oct 21 04:14:18 CDT 2026 ) with: 56
+-X POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi -d db=nuccore&id=NC_117245.1&rettype=fasta_cds_aa&retmode=text&tool=edirect&edirect=26.0&edirect_os=Linux&email=fp%40Fritzner.localdomain
+HTTP/1.0 200 OK
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+ ERROR:  curl command failed ( Wed Oct 21 04:14:19 CDT 2026 ) with: 56
+-X POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi -d db=nuccore&id=NC_028793.2&rettype=fasta_cds_aa&retmode=text&tool=edirect&edirect=26.0&edirect_os=Linux&email=fp%40Fritzner.localdomain
+HTTP/1.0 200 OK
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+ ERROR:  curl command failed ( Wed Oct 21 04:14:20 CDT 2026 ) with: 56
+-X POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi -d db=nuccore&id=NC_008249.1&rettype=fasta_cds_aa&retmode=text&tool=edirect&edirect=26.0&edirect_os=Linux&email=fp%40Fritzner.localdomain
+HTTP/1.0 200 OK
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+ ERROR:  curl command failed ( Wed Oct 21 04:14:21 CDT 2026 ) with: 56
+-X POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi -d db=nuccore&id=NC_076825.1&rettype=fasta_cds_aa&retmode=text&tool=edirect&edirect=26.0&edirect_os=Linux&email=fp%40Fritzner.localdomain
+HTTP/1.0 200 OK
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+ ERROR:  curl command failed ( Wed Oct 21 04:14:22 CDT 2026 ) with: 56
+-X POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi -d db=nuccore&id=LC818997.1&rettype=fasta_cds_aa&retmode=text&tool=edirect&edirect=26.0&edirect_os=Linux&email=fp%40Fritzner.localdomain
+HTTP/1.0 200 OK
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+ ERROR:  curl command failed ( Wed Oct 21 04:14:23 CDT 2026 ) with: 56
+-X POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi -d db=nuccore&id=NC_015050.1&rettype=fasta_cds_aa&retmode=text&tool=edirect&edirect=26.0&edirect_os=Linux&email=fp%40Fritzner.localdomain
+HTTP/1.0 200 OK
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+ ERROR:  curl command failed ( Wed Oct 21 04:14:25 CDT 2026 ) with: 56
+-X POST https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi -d db=nuccore&id=NC_003688.1&rettype=fasta_cds_aa&retmode=text&tool=edirect&edirect=26.0&edirect_os=Linux&email=fp%40Fritzner.localdomain
+HTTP/1.0 200 OK

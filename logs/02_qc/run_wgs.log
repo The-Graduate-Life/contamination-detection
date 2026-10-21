@@ -1,0 +1,7 @@
+[2026-10-20 21:07:24] SRR39022911: FastQC raw
+application/gzip
+application/gzip
+[2026-10-20 21:10:23] SRR39022911: fastp (Q15 cut_right, minlen 50, adapter PE detection, poly-G)
+[2026-10-20 21:19:43] SRR39022911: FastQC trimmed
+application/gzip
+application/gzip

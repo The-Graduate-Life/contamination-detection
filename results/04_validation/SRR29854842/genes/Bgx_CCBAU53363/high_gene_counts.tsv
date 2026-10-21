@@ -1,0 +1,340 @@
+gene_id	locus	biotype	product	contig	start	end	fragments
+gene-X268_RS01880	X268_RS01880	rRNA	23S ribosomal RNA	NZ_CP022219.1	397075	399921	3743
+gene-X268_RS01865	X268_RS01865	rRNA	16S ribosomal RNA	NZ_CP022219.1	394829	396317	3357
+intergenic							165
+gene-X268_RS37150	X268_RS37150	protein_coding	ABC transporter substrate-binding protein	NZ_CP022220.1	553146	554762	32
+gene-X268_RS14380	X268_RS14380	protein_coding	cold-shock protein	NZ_CP022219.1	3042765	3043427	15
+gene-X268_RS29265	X268_RS29265	protein_coding	hypothetical protein	NZ_CP022219.1	6108699	6109067	12
+gene-X268_RS02845	X268_RS02845	protein_coding	glycosyltransferase family 87 protein	NZ_CP022219.1	598693	599922	11
+gene-X268_RS37165	X268_RS37165	protein_coding	dipeptide ABC transporter ATP-binding protein	NZ_CP022220.1	556653	558395	11
+gene-X268_RS00520	X268_RS00520	protein_coding	MFS transporter	NZ_CP022219.1	114500	115834	10
+gene-X268_RS12910	X268_RS12910	protein_coding	LPS-assembly protein LptD	NZ_CP022219.1	2758840	2761329	10
+gene-X268_RS34595	X268_RS34595	protein_coding	ABC transporter ATP-binding protein	NZ_CP022220.1	12768	13877	10
+gene-X268_RS30510	X268_RS30510	protein_coding	phosphate ABC transporter substrate-binding protein PstS	NZ_CP022219.1	6349481	6350494	9
+gene-X268_RS36835	X268_RS36835	protein_coding	MFS transporter	NZ_CP022220.1	495263	496831	9
+gene-X268_RS00190	X268_RS00190	protein_coding	DUF4167 domain-containing protein	NZ_CP022219.1	44174	44923	8
+gene-X268_RS00205	X268_RS00205	protein_coding	phosphoenolpyruvate--protein phosphotransferase	NZ_CP022219.1	47419	49686	8
+gene-X268_RS05375	X268_RS05375	protein_coding	type II secretion system protein GspM	NZ_CP022219.1	1128612	1129217	8
+gene-X268_RS05920	X268_RS05920	protein_coding	flavin reductase family protein	NZ_CP022219.1	1260041	1260664	8
+gene-X268_RS19060	X268_RS19060	protein_coding	50S ribosomal protein L10	NZ_CP022219.1	3990808	3991326	8
+gene-X268_RS19090	X268_RS19090	protein_coding	class I SAM-dependent methyltransferase	NZ_CP022219.1	3995326	3996594	8
+gene-X268_RS25375	X268_RS25375	protein_coding	non-homologous end joining protein Ku	NZ_CP022219.1	5315326	5316210	8
+gene-X268_RS26035	X268_RS26035	protein_coding	ATP-binding protein	NZ_CP022219.1	5441664	5443277	8
+gene-X268_RS05615	X268_RS05615	protein_coding	polysaccharide biosynthesis/export family protein	NZ_CP022219.1	1185617	1186732	7
+gene-X268_RS08545	X268_RS08545	protein_coding	3-oxo-tetronate kinase	NZ_CP022219.1	1805862	1807136	7
+gene-X268_RS21485	X268_RS21485	protein_coding	LysR family transcriptional regulator	NZ_CP022219.1	4472349	4473254	7
+gene-X268_RS29410	X268_RS29410	protein_coding	tetratricopeptide repeat protein	NZ_CP022219.1	6138648	6139961	7
+gene-X268_RS40605	X268_RS40605	pseudogene	CBASS cGAMP synthase	NZ_CP022220.1	170267	170989	7
+gene-X268_RS38415	X268_RS38415	protein_coding	TetR/AcrR family transcriptional regulator	NZ_CP022220.1	833910	834557	7
+gene-X268_RS04600	X268_RS04600	protein_coding	xanthine dehydrogenase family protein molybdopterin-binding subunit	NZ_CP022219.1	952495	954756	6
+gene-X268_RS07765	X268_RS07765	protein_coding	cytochrome-c oxidase%2C cbb3-type subunit I	NZ_CP022219.1	1637994	1639643	6
+gene-X268_RS21960	X268_RS21960	protein_coding	SDR family oxidoreductase	NZ_CP022219.1	4581680	4582444	6
+gene-X268_RS24230	X268_RS24230	protein_coding	AsmA family protein	NZ_CP022219.1	5055908	5059558	6
+gene-X268_RS40310	X268_RS40310	protein_coding	ATP-binding cassette domain-containing protein	NZ_CP022220.1	446680	447042	6
+gene-X268_RS03895	X268_RS03895	protein_coding	RNA polymerase sigma factor RpoH	NZ_CP022219.1	808697	809596	5
+gene-X268_RS08675	X268_RS08675	pseudogene	phosphoenolpyruvate carboxylase	NZ_CP022219.1	1840299	1843094	5
+gene-X268_RS11670	X268_RS11670	protein_coding	efflux RND transporter periplasmic adaptor subunit	NZ_CP022219.1	2501694	2502863	5
+gene-X268_RS12890	X268_RS12890	protein_coding	alcohol dehydrogenase	NZ_CP022219.1	2754860	2755918	5
+gene-X268_RS19015	X268_RS19015	protein_coding	elongation factor Tu	NZ_CP022219.1	3971921	3973111	5
+gene-X268_RS19050	X268_RS19050	protein_coding	DNA-directed RNA polymerase subunit beta	NZ_CP022219.1	3985741	3989859	5
+gene-X268_RS19655	X268_RS19655	protein_coding	glucans biosynthesis glucosyltransferase MdoH	NZ_CP022219.1	4100806	4102920	5
+gene-X268_RS20365	X268_RS20365	protein_coding	chaperonin GroEL	NZ_CP022219.1	4246963	4248603	5
+gene-X268_RS20945	X268_RS20945	protein_coding	alanine--tRNA ligase	NZ_CP022219.1	4360780	4363458	5
+gene-X268_RS21250	X268_RS21250	protein_coding	flagellar motor switch protein FliM	NZ_CP022219.1	4418609	4419811	5
+gene-X268_RS21810	X268_RS21810	protein_coding	methionine adenosyltransferase	NZ_CP022219.1	4547436	4548632	5
+gene-X268_RS22290	X268_RS22290	protein_coding	bifunctional salicylyl-CoA 5-hydroxylase/oxidoreductase	NZ_CP022219.1	4655959	4658310	5
+gene-X268_RS34705	X268_RS34705	protein_coding	carbohydrate ABC transporter permease	NZ_CP022220.1	35848	36774	5
+gene-X268_RS38185	X268_RS38185	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022220.1	780229	780603	5
+gene-X268_RS38430	X268_RS38430	protein_coding	efflux RND transporter permease subunit	NZ_CP022220.1	836898	839996	5
+gene-X268_RS39060	X268_RS39060	protein_coding	aspartate transaminase	NZ_CP022220.1	965294	966502	5
+gene-X268_RS02450	X268_RS02450	protein_coding	FdhF/YdeP family oxidoreductase	NZ_CP022219.1	510818	513109	4
+gene-X268_RS02760	X268_RS02760	protein_coding	exopolysaccharide transport family protein	NZ_CP022219.1	580828	583203	4
+gene-X268_RS05775	X268_RS05775	protein_coding	hydroxymethylbilane synthase	NZ_CP022219.1	1229923	1230903	4
+gene-X268_RS07050	X268_RS07050	protein_coding	DnaJ C-terminal domain-containing protein	NZ_CP022219.1	1485550	1486512	4
+gene-X268_RS40005	X268_RS40005	pseudogene	winged helix-turn-helix domain-containing protein	NZ_CP022219.1	2025583	2025897	4
+gene-X268_RS11085	X268_RS11085	protein_coding	aldehyde dehydrogenase family protein	NZ_CP022219.1	2377771	2379255	4
+gene-X268_RS12040	X268_RS12040	protein_coding	NADP-dependent oxidoreductase	NZ_CP022219.1	2581714	2582736	4
+gene-X268_RS16355	X268_RS16355	protein_coding	TonB-dependent receptor	NZ_CP022219.1	3448999	3451230	4
+gene-X268_RS18500	X268_RS18500	protein_coding	curlin	NZ_CP022219.1	3890210	3890620	4
+gene-X268_RS20445	X268_RS20445	protein_coding	adenylate/guanylate cyclase domain-containing protein	NZ_CP022219.1	4262746	4264053	4
+gene-X268_RS20770	X268_RS20770	protein_coding	L-histidine N(alpha)-methyltransferase	NZ_CP022219.1	4325475	4326446	4
+gene-X268_RS20775	X268_RS20775	protein_coding	low temperature requirement protein A	NZ_CP022219.1	4326647	4327840	4
+gene-X268_RS22030	X268_RS22030	protein_coding	pseudaminic acid synthase	NZ_CP022219.1	4596360	4597469	4
+gene-X268_RS25045	X268_RS25045	protein_coding	ABC transporter ATP-binding protein	NZ_CP022219.1	5229093	5230961	4
+gene-X268_RS26880	X268_RS26880	protein_coding	alpha/beta hydrolase	NZ_CP022219.1	5599385	5601892	4
+gene-X268_RS29150	X268_RS29150	protein_coding	permease	NZ_CP022219.1	6085263	6086792	4
+gene-X268_RS30880	X268_RS30880	protein_coding	thiosulfohydrolase SoxB	NZ_CP022219.1	6427506	6429257	4
+gene-X268_RS32305	X268_RS32305	protein_coding	50S ribosomal protein L20	NZ_CP022219.1	6750484	6750843	4
+gene-X268_RS32320	X268_RS32320	protein_coding	phenylalanine--tRNA ligase subunit beta	NZ_CP022219.1	6752699	6755107	4
+gene-X268_RS34755	X268_RS34755	protein_coding	nickel-dependent hydrogenase large subunit	NZ_CP022220.1	50786	52576	4
+gene-X268_RS34790	X268_RS34790	protein_coding	[NiFe]-hydrogenase assembly chaperone HybE	NZ_CP022220.1	56010	56519	4
+gene-X268_RS36215	X268_RS36215	protein_coding	phosphoenolpyruvate hydrolase family protein	NZ_CP022220.1	356061	356948	4
+gene-X268_RS36855	X268_RS36855	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022220.1	499068	499316	4
+gene-X268_RS37225	X268_RS37225	protein_coding	M24 family metallopeptidase	NZ_CP022220.1	569760	570527	4
+gene-X268_RS37605	X268_RS37605	protein_coding	AAA family ATPase	NZ_CP022220.1	650337	651263	4
+gene-X268_RS38090	X268_RS38090	protein_coding	IS66 family transposase	NZ_CP022220.1	758420	759979	4
+gene-X268_RS38400	X268_RS38400	protein_coding	fumarylacetoacetate hydrolase family protein	NZ_CP022220.1	829279	830127	4
+gene-X268_RS38420	X268_RS38420	protein_coding	efflux RND transporter periplasmic adaptor subunit	NZ_CP022220.1	834704	835828	4
+gene-X268_RS03210	X268_RS03210	protein_coding	isoleucine--tRNA ligase	NZ_CP022219.1	669061	672069	3
+gene-X268_RS03450	X268_RS03450	protein_coding	excinuclease ABC subunit UvrB	NZ_CP022219.1	714319	717219	3
+gene-X268_RS04790	X268_RS04790	protein_coding	TetR/AcrR family transcriptional regulator	NZ_CP022219.1	993353	994000	3
+gene-X268_RS05705	X268_RS05705	protein_coding	glycosyltransferase	NZ_CP022219.1	1213229	1214368	3
+gene-X268_RS40840	X268_RS40840	protein_coding	hypothetical protein	NZ_CP022219.1	1440292	1440576	3
+gene-X268_RS07500	X268_RS07500	protein_coding	cytochrome (ubi)quinol oxidase subunit III	NZ_CP022219.1	1570219	1570860	3
+gene-X268_RS07580	X268_RS07580	protein_coding	xanthine dehydrogenase family protein molybdopterin-binding subunit	NZ_CP022219.1	1588337	1590523	3
+gene-X268_RS08305	X268_RS08305	protein_coding	polyamine aminopropyltransferase	NZ_CP022219.1	1759169	1759843	3
+gene-X268_RS09130	X268_RS09130	protein_coding	sigma-70 family RNA polymerase sigma factor	NZ_CP022219.1	1954709	1955257	3
+gene-X268_RS10735	X268_RS10735	protein_coding	glucosamine inositolphosphorylceramide transferase family protein	NZ_CP022219.1	2304816	2306351	3
+gene-X268_RS11125	X268_RS11125	protein_coding	cysteine--tRNA ligase	NZ_CP022219.1	2386405	2387787	3
+gene-X268_RS11965	X268_RS11965	protein_coding	3-hydroxyisobutyrate dehydrogenase	NZ_CP022219.1	2563318	2564235	3
+gene-X268_RS12195	X268_RS12195	protein_coding	FAD binding domain-containing protein	NZ_CP022219.1	2616171	2616986	3
+gene-X268_RS12705	X268_RS12705	protein_coding	hypothetical protein	NZ_CP022219.1	2725530	2726456	3
+gene-X268_RS13615	X268_RS13615	protein_coding	hypothetical protein	NZ_CP022219.1	2889270	2889551	3
+gene-X268_RS15435	X268_RS15435	protein_coding	2-dehydropantoate 2-reductase	NZ_CP022219.1	3277972	3278901	3
+gene-X268_RS15950	X268_RS15950	protein_coding	hypothetical protein	NZ_CP022219.1	3369613	3369963	3
+gene-X268_RS16470	X268_RS16470	protein_coding	glutaminase A	NZ_CP022219.1	3475595	3477469	3
+gene-X268_RS17020	X268_RS17020	protein_coding	TonB-dependent siderophore receptor	NZ_CP022219.1	3600855	3603110	3
+gene-X268_RS17220	X268_RS17220	protein_coding	50S ribosomal protein L13	NZ_CP022219.1	3641062	3641526	3
+gene-X268_RS19045	X268_RS19045	protein_coding	DNA-directed RNA polymerase subunit beta'	NZ_CP022219.1	3981415	3985611	3
+gene-X268_RS19220	X268_RS19220	protein_coding	phosphotransferase family protein	NZ_CP022219.1	4020086	4021144	3
+gene-X268_RS21160	X268_RS21160	protein_coding	fumarate hydratase	NZ_CP022219.1	4397645	4399300	3
+gene-X268_RS21330	X268_RS21330	protein_coding	hypothetical protein	NZ_CP022219.1	4432161	4432658	3
+gene-X268_RS21360	X268_RS21360	protein_coding	DUF1522 domain-containing protein	NZ_CP022219.1	4441789	4444056	3
+gene-X268_RS22935	X268_RS22935	protein_coding	lanthanide-dependent methanol dehydrogenase XoxF5	NZ_CP022219.1	4778172	4779977	3
+gene-X268_RS24600	X268_RS24600	protein_coding	RNA polymerase sigma factor	NZ_CP022219.1	5151429	5152661	3
+gene-X268_RS25265	X268_RS25265	protein_coding	hypothetical protein	NZ_CP022219.1	5279590	5279793	3
+gene-X268_RS25280	X268_RS25280	protein_coding	YeaH/YhbH family protein	NZ_CP022219.1	5281893	5283170	3
+gene-X268_RS25930	X268_RS25930	protein_coding	porin	NZ_CP022219.1	5418692	5420263	3
+gene-X268_RS27305	X268_RS27305	protein_coding	ABC transporter substrate-binding protein	NZ_CP022219.1	5687494	5688879	3
+gene-X268_RS27505	X268_RS27505	protein_coding	TetR/AcrR family transcriptional regulator	NZ_CP022219.1	5729029	5729709	3
+gene-X268_RS29980	X268_RS29980	protein_coding	TIGR03790 family protein	NZ_CP022219.1	6246836	6248344	3
+gene-X268_RS30465	X268_RS30465	protein_coding	Hsp33 family molecular chaperone	NZ_CP022219.1	6340734	6341753	3
+gene-X268_RS31015	X268_RS31015	protein_coding	acyl-CoA dehydrogenase family protein	NZ_CP022219.1	6464750	6465886	3
+gene-X268_RS34070	X268_RS34070	protein_coding	PAS domain S-box protein	NZ_CP022219.1	7108956	7112549	3
+gene-X268_RS34135	X268_RS34135	protein_coding	thermonuclease family protein	NZ_CP022219.1	7128010	7128735	3
+gene-X268_RS35190	X268_RS35190	protein_coding	hypothetical protein	NZ_CP022220.1	141431	142252	3
+gene-X268_RS35520	X268_RS35520	protein_coding	NAD(P)/FAD-dependent oxidoreductase	NZ_CP022220.1	204471	205634	3
+gene-X268_RS35545	X268_RS35545	protein_coding	aspartate aminotransferase type Ic	NZ_CP022220.1	208655	209947	3
+gene-X268_RS35590	X268_RS35590	protein_coding	SDR family oxidoreductase	NZ_CP022220.1	219776	220555	3
+gene-X268_RS36095	X268_RS36095	protein_coding	nodulation protein NolW	NZ_CP022220.1	328072	328743	3
+gene-X268_RS36600	X268_RS36600	pseudogene	IS630 family transposase	NZ_CP022220.1	441000	441374	3
+gene-X268_RS36685	X268_RS36685	protein_coding	YecA/YgfB family protein	NZ_CP022220.1	456879	457454	3
+gene-X268_RS36765	X268_RS36765	protein_coding	plasmid partitioning protein RepA	NZ_CP022220.1	475927	477138	3
+gene-X268_RS37160	X268_RS37160	protein_coding	ABC transporter permease	NZ_CP022220.1	555733	556653	3
+gene-X268_RS37240	X268_RS37240	protein_coding	NAD-dependent succinate-semialdehyde dehydrogenase	NZ_CP022220.1	573399	574913	3
+gene-X268_RS37400	X268_RS37400	protein_coding	C45 family autoproteolytic acyltransferase/hydrolase	NZ_CP022220.1	602611	603705	3
+gene-X268_RS37675	X268_RS37675	protein_coding	FkbM family methyltransferase	NZ_CP022220.1	669981	670652	3
+gene-X268_RS37825	X268_RS37825	protein_coding	glycoside hydrolase family 28 protein	NZ_CP022220.1	703629	704738	3
+gene-X268_RS37865	X268_RS37865	protein_coding	nitrogenase iron-molybdenum cofactor biosynthesis protein NifE	NZ_CP022220.1	714889	716451	3
+gene-X268_RS37915	X268_RS37915	protein_coding	nitrogenase cofactor biosynthesis protein NifB	NZ_CP022220.1	722573	724129	3
+gene-X268_RS38680	X268_RS38680	protein_coding	lactonase family protein	NZ_CP022220.1	888140	889390	3
+gene-X268_RS38810	X268_RS38810	protein_coding	thiamine pyrophosphate-binding protein	NZ_CP022220.1	915272	916948	3
+gene-X268_RS38875	X268_RS38875	protein_coding	hydantoinase B/oxoprolinase family protein	NZ_CP022220.1	930296	931957	3
+gene-X268_RS00165	X268_RS00165	protein_coding	acetoacetyl-CoA reductase	NZ_CP022219.1	40266	40991	2
+gene-X268_RS00390	X268_RS00390	protein_coding	cobaltochelatase subunit CobS	NZ_CP022219.1	87450	88433	2
+gene-X268_RS01225	X268_RS01225	protein_coding	cytochrome c oxidase subunit II	NZ_CP022219.1	263039	263893	2
+gene-X268_RS01755	X268_RS01755	protein_coding	carboxymuconolactone decarboxylase family protein	NZ_CP022219.1	368083	368466	2
+gene-X268_RS02755	X268_RS02755	protein_coding	WecB/TagA/CpsF family glycosyltransferase	NZ_CP022219.1	580032	580835	2
+gene-X268_RS03390	X268_RS03390	protein_coding	aminoacyl-tRNA hydrolase	NZ_CP022219.1	703502	704107	2
+gene-X268_RS03575	X268_RS03575	protein_coding	phosphoglucosamine mutase	NZ_CP022219.1	738902	740245	2
+gene-X268_RS03845	X268_RS03845	protein_coding	RNA polymerase sigma factor RpoD	NZ_CP022219.1	798260	800401	2
+gene-X268_RS04540	X268_RS04540	protein_coding	flagellar biosynthesis protein FlhA	NZ_CP022219.1	941328	943469	2
+gene-X268_RS04570	X268_RS04570	protein_coding	hypothetical protein	NZ_CP022219.1	947740	948153	2
+gene-X268_RS05035	X268_RS05035	protein_coding	ABC transporter substrate-binding protein	NZ_CP022219.1	1049856	1051058	2
+gene-X268_RS05120	X268_RS05120	protein_coding	OFA family MFS transporter	NZ_CP022219.1	1068353	1070005	2
+gene-X268_RS06075	X268_RS06075	protein_coding	NUDIX domain-containing protein	NZ_CP022219.1	1291189	1291680	2
+gene-X268_RS06840	X268_RS06840	protein_coding	HAMP domain-containing protein	NZ_CP022219.1	1443331	1449627	2
+gene-X268_RS08560	X268_RS08560	protein_coding	efflux RND transporter permease subunit	NZ_CP022219.1	1811087	1814266	2
+gene-X268_RS08665	X268_RS08665	protein_coding	rhomboid family intramembrane serine protease	NZ_CP022219.1	1837857	1838948	2
+gene-X268_RS08795	X268_RS08795	protein_coding	phosphodiesterase	NZ_CP022219.1	1870691	1871515	2
+gene-X268_RS09050	X268_RS09050	protein_coding	inorganic phosphate transporter	NZ_CP022219.1	1931887	1933515	2
+gene-X268_RS09090	X268_RS09090	protein_coding	CoA transferase	NZ_CP022219.1	1943665	1945065	2
+gene-X268_RS09145	X268_RS09145	protein_coding	GGDEF domain-containing protein	NZ_CP022219.1	1957170	1958324	2
+gene-X268_RS09800	X268_RS09800	protein_coding	bifunctional [glutamine synthetase] adenylyltransferase/[glutamine synthetase]-adenylyl-L-tyrosine phosphorylase	NZ_CP022219.1	2099743	2102712	2
+gene-X268_RS10380	X268_RS10380	protein_coding	calcium-binding protein	NZ_CP022219.1	2227339	2228541	2
+gene-X268_RS10780	X268_RS10780	protein_coding	DUF3422 domain-containing protein	NZ_CP022219.1	2319602	2320921	2
+gene-X268_RS11865	X268_RS11865	protein_coding	TadE/TadG family type IV pilus assembly protein	NZ_CP022219.1	2542507	2543928	2
+gene-X268_RS13500	X268_RS13500	protein_coding	L%2CD-transpeptidase	NZ_CP022219.1	2872042	2872638	2
+gene-X268_RS13680	X268_RS13680	protein_coding	NADH:ubiquinone oxidoreductase subunit NDUFA12	NZ_CP022219.1	2904360	2904767	2
+gene-X268_RS13715	X268_RS13715	protein_coding	DUF2155 domain-containing protein	NZ_CP022219.1	2910536	2911558	2
+gene-X268_RS13740	X268_RS13740	protein_coding	acetyl-CoA carboxylase biotin carboxylase subunit	NZ_CP022219.1	2915522	2916877	2
+gene-X268_RS14020	X268_RS14020	protein_coding	N-acetyl-gamma-glutamyl-phosphate reductase	NZ_CP022219.1	2982829	2983875	2
+gene-X268_RS14155	X268_RS14155	protein_coding	single-stranded-DNA-specific exonuclease RecJ	NZ_CP022219.1	3008784	3010625	2
+gene-X268_RS14970	X268_RS14970	protein_coding	FAD:protein FMN transferase	NZ_CP022219.1	3174308	3175303	2
+gene-X268_RS15755	X268_RS15755	protein_coding	xanthine dehydrogenase family protein molybdopterin-binding subunit	NZ_CP022219.1	3332542	3334869	2
+gene-X268_RS16560	X268_RS16560	protein_coding	bifunctional diguanylate cyclase/phosphodiesterase	NZ_CP022219.1	3495168	3497900	2
+gene-X268_RS16625	X268_RS16625	protein_coding	citrate synthase	NZ_CP022219.1	3511845	3513149	2
+gene-X268_RS17040	X268_RS17040	protein_coding	HU family DNA-binding protein	NZ_CP022219.1	3604433	3604753	2
+gene-X268_RS17050	X268_RS17050	protein_coding	hypothetical protein	NZ_CP022219.1	3606163	3607047	2
+gene-X268_RS18275	X268_RS18275	tRNA	tRNA-Leu	NZ_CP022219.1	3846564	3846648	2
+gene-X268_RS18690	X268_RS18690	protein_coding	thiolase domain-containing protein	NZ_CP022219.1	3921970	3923127	2
+gene-X268_RS18960	X268_RS18960	protein_coding	30S ribosomal protein S17	NZ_CP022219.1	3966650	3966898	2
+gene-X268_RS18975	X268_RS18975	protein_coding	30S ribosomal protein S3	NZ_CP022219.1	3967568	3968293	2
+gene-X268_RS19025	X268_RS19025	protein_coding	30S ribosomal protein S7	NZ_CP022219.1	3975258	3975728	2
+gene-X268_RS21225	X268_RS21225	protein_coding	flagellar biosynthetic protein FliO	NZ_CP022219.1	4411641	4412603	2
+gene-X268_RS21595	X268_RS21595	protein_coding	MFS transporter	NZ_CP022219.1	4497416	4498612	2
+gene-X268_RS22510	X268_RS22510	protein_coding	arginase	NZ_CP022219.1	4698802	4699779	2
+gene-X268_RS22805	X268_RS22805	protein_coding	ABC transporter substrate-binding protein	NZ_CP022219.1	4757284	4758465	2
+gene-X268_RS22825	X268_RS22825	protein_coding	hypothetical protein	NZ_CP022219.1	4761087	4761695	2
+gene-X268_RS22960	X268_RS22960	protein_coding	xanthine dehydrogenase family protein molybdopterin-binding subunit	NZ_CP022219.1	4783431	4785758	2
+gene-X268_RS23145	X268_RS23145	protein_coding	peptide-methionine (S)-S-oxide reductase MsrA	NZ_CP022219.1	4825463	4825978	2
+gene-X268_RS23820	X268_RS23820	protein_coding	ABC transporter substrate-binding protein	NZ_CP022219.1	4974386	4975696	2
+gene-X268_RS24305	X268_RS24305	protein_coding	TRAP transporter substrate-binding protein	NZ_CP022219.1	5079052	5080083	2
+gene-X268_RS24365	X268_RS24365	protein_coding	methyltransferase family protein	NZ_CP022219.1	5092416	5093042	2
+gene-X268_RS24400	X268_RS24400	protein_coding	FecR family protein	NZ_CP022219.1	5098682	5099299	2
+gene-X268_RS26040	X268_RS26040	protein_coding	N-acyl homoserine lactonase family protein	NZ_CP022219.1	5443282	5444127	2
+gene-X268_RS27195	X268_RS27195	protein_coding	carbohydrate ABC transporter permease	NZ_CP022219.1	5663524	5664423	2
+gene-X268_RS27265	X268_RS27265	protein_coding	GlxA family transcriptional regulator	NZ_CP022219.1	5678116	5679135	2
+gene-X268_RS27460	X268_RS27460	protein_coding	patatin-like phospholipase domain-containing protein	NZ_CP022219.1	5714591	5717563	2
+gene-X268_RS27510	X268_RS27510	protein_coding	glycosyltransferase family 87 protein	NZ_CP022219.1	5729974	5731203	2
+gene-X268_RS28010	X268_RS28010	protein_coding	multidrug efflux RND transporter permease subunit	NZ_CP022219.1	5835266	5838424	2
+gene-X268_RS30355	X268_RS30355	protein_coding	xylose isomerase	NZ_CP022219.1	6321241	6322563	2
+gene-X268_RS30620	X268_RS30620	protein_coding	acyl-homoserine-lactone synthase	NZ_CP022219.1	6373412	6374071	2
+gene-X268_RS31790	X268_RS31790	protein_coding	serine hydrolase domain-containing protein	NZ_CP022219.1	6643343	6644536	2
+gene-X268_RS31915	X268_RS31915	protein_coding	30S ribosomal protein S15	NZ_CP022219.1	6670072	6670341	2
+gene-X268_RS32040	X268_RS32040	protein_coding	sensor histidine kinase	NZ_CP022219.1	6695823	6698327	2
+gene-X268_RS33125	X268_RS33125	protein_coding	sulfate adenylyltransferase subunit CysN	NZ_CP022219.1	6914355	6916250	2
+gene-X268_RS33710	X268_RS33710	protein_coding	Bax inhibitor-1/YccA family protein	NZ_CP022219.1	7031685	7032476	2
+gene-X268_RS33805	X268_RS33805	protein_coding	F0F1 ATP synthase subunit delta	NZ_CP022219.1	7055642	7056202	2
+gene-X268_RS34000	X268_RS34000	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022219.1	7097342	7097965	2
+gene-X268_RS34670	X268_RS34670	protein_coding	TRAP transporter large permease	NZ_CP022220.1	28873	30768	2
+gene-X268_RS34795	X268_RS34795	protein_coding	nickel-dependent hydrogenase large subunit	NZ_CP022220.1	56516	57607	2
+gene-X268_RS35000	X268_RS35000	protein_coding	IclR family transcriptional regulator	NZ_CP022220.1	102457	103323	2
+gene-X268_RS35435	X268_RS35435	protein_coding	NAD(P)/FAD-dependent oxidoreductase	NZ_CP022220.1	184011	185306	2
+gene-X268_RS35445	X268_RS35445	protein_coding	Ldh family oxidoreductase	NZ_CP022220.1	187102	188127	2
+gene-X268_RS35635	X268_RS35635	protein_coding	ABC transporter permease	NZ_CP022220.1	227944	228960	2
+gene-X268_RS35675	X268_RS35675	protein_coding	enoyl-CoA hydratase/isomerase family protein	NZ_CP022220.1	236259	237035	2
+gene-X268_RS36350	X268_RS36350	pseudogene	aldehyde dehydrogenase family protein	NZ_CP022220.1	385400	386836	2
+gene-X268_RS36430	X268_RS36430	protein_coding	carbohydrate ABC transporter permease	NZ_CP022220.1	407033	407893	2
+gene-X268_RS36460	X268_RS36460	protein_coding	sterol desaturase family protein	NZ_CP022220.1	414834	415847	2
+gene-X268_RS36490	X268_RS36490	protein_coding	NAD(P)/FAD-dependent oxidoreductase	NZ_CP022220.1	420781	422016	2
+gene-X268_RS36680	X268_RS36680	pseudogene	response regulator transcription factor	NZ_CP022220.1	456379	456755	2
+gene-X268_RS36850	X268_RS36850	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022220.1	498519	498800	2
+gene-X268_RS36965	X268_RS36965	protein_coding	DUF2274 domain-containing protein	NZ_CP022220.1	518808	519044	2
+gene-X268_RS37050	X268_RS37050	pseudogene	tyrosine-type recombinase/integrase	NZ_CP022220.1	531619	532478	2
+gene-X268_RS37120	X268_RS37120	protein_coding	CapA family protein	NZ_CP022220.1	547739	549061	2
+gene-X268_RS37245	X268_RS37245	protein_coding	aminotransferase	NZ_CP022220.1	574923	576323	2
+gene-X268_RS37485	X268_RS37485	protein_coding	hypothetical protein	NZ_CP022220.1	623106	623783	2
+gene-X268_RS37530	X268_RS37530	protein_coding	diaminobutyrate--2-oxoglutarate transaminase	NZ_CP022220.1	631204	632484	2
+gene-X268_RS37570	X268_RS37570	pseudogene	IS21-like element helper ATPase IstB	NZ_CP022220.1	640449	641260	2
+gene-X268_RS37710	X268_RS37710	protein_coding	LLM class flavin-dependent oxidoreductase	NZ_CP022220.1	676475	677488	2
+gene-X268_RS37785	X268_RS37785	protein_coding	carbamoyltransferase family protein	NZ_CP022220.1	690282	692315	2
+gene-X268_RS37805	X268_RS37805	protein_coding	nif-specific transcriptional activator NifA	NZ_CP022220.1	697537	699252	2
+gene-X268_RS37870	X268_RS37870	protein_coding	nitrogenase iron-molybdenum cofactor biosynthesis protein NifN	NZ_CP022220.1	716463	717845	2
+gene-X268_RS38065	X268_RS38065	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022220.1	754223	754741	2
+gene-X268_RS38110	X268_RS38110	protein_coding	EAL domain-containing protein	NZ_CP022220.1	761473	761802	2
+gene-X268_RS38195	X268_RS38195	protein_coding	hypothetical protein	NZ_CP022220.1	781212	781673	2
+gene-X268_RS38200	X268_RS38200	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022220.1	781663	782625	2
+gene-X268_RS38235	X268_RS38235	pseudogene	IS630 family transposase	NZ_CP022220.1	788674	789779	2
+gene-X268_RS38345	X268_RS38345	protein_coding	fumarylacetoacetate hydrolase family protein	NZ_CP022220.1	813673	814629	2
+gene-X268_RS38520	X268_RS38520	protein_coding	branched-chain amino acid ABC transporter permease	NZ_CP022220.1	856555	857472	2
+gene-X268_RS39015	X268_RS39015	protein_coding	hydrogenase expression/formation protein HypE	NZ_CP022220.1	957192	958259	2
+gene-X268_RS39065	X268_RS39065	protein_coding	nitrogen assimilation transcriptional regulator NAC	NZ_CP022220.1	966675	967613	2
+gene-X268_RS00480	X268_RS00480	protein_coding	CarD family transcriptional regulator	NZ_CP022219.1	106361	107161	1
+gene-X268_RS01240	X268_RS01240	protein_coding	CoxF protein	NZ_CP022219.1	266600	266776	1
+gene-X268_RS01885	X268_RS01885	rRNA	5S ribosomal RNA	NZ_CP022219.1	400022	400136	1
+gene-X268_RS01910	X268_RS01910	protein_coding	NAD(P)H-dependent oxidoreductase	NZ_CP022219.1	405295	406602	1
+gene-X268_RS02020	X268_RS02020	protein_coding	hypothetical protein	NZ_CP022219.1	427442	427864	1
+gene-X268_RS02315	X268_RS02315	protein_coding	Bug family tripartite tricarboxylate transporter substrate binding protein	NZ_CP022219.1	485340	486329	1
+gene-X268_RS02650	X268_RS02650	protein_coding	thiamine pyrophosphate-binding protein	NZ_CP022219.1	551363	553024	1
+gene-X268_RS02875	X268_RS02875	protein_coding	hypothetical protein	NZ_CP022219.1	603972	604232	1
+gene-X268_RS03070	X268_RS03070	protein_coding	hypothetical protein	NZ_CP022219.1	642386	642688	1
+gene-X268_RS03545	X268_RS03545	protein_coding	elongation factor G	NZ_CP022219.1	731123	733171	1
+gene-X268_RS04330	X268_RS04330	protein_coding	DUF2927 domain-containing protein	NZ_CP022219.1	902649	903464	1
+gene-X268_RS04700	X268_RS04700	protein_coding	L%2CD-transpeptidase	NZ_CP022219.1	976214	977770	1
+gene-X268_RS04745	X268_RS04745	protein_coding	DoxX family protein	NZ_CP022219.1	984750	985259	1
+gene-X268_RS05130	X268_RS05130	protein_coding	NADH-ubiquinone oxidoreductase-F iron-sulfur binding region domain-containing protein	NZ_CP022219.1	1070674	1072377	1
+gene-X268_RS05645	X268_RS05645	protein_coding	acyltransferase family protein	NZ_CP022219.1	1194282	1195493	1
+gene-X268_RS06055	X268_RS06055	protein_coding	isocitrate lyase	NZ_CP022219.1	1287466	1289100	1
+gene-X268_RS06355	X268_RS06355	protein_coding	KPN_02809 family neutral zinc metallopeptidase	NZ_CP022219.1	1348471	1349412	1
+gene-X268_RS06475	X268_RS06475	protein_coding	tRNA1(Val) (adenine(37)-N6)-methyltransferase	NZ_CP022219.1	1375591	1376355	1
+gene-X268_RS06580	X268_RS06580	protein_coding	NUDIX hydrolase	NZ_CP022219.1	1403371	1404339	1
+gene-X268_RS06585	X268_RS06585	protein_coding	tyrosine phosphatase family protein	NZ_CP022219.1	1404359	1404865	1
+gene-X268_RS07660	X268_RS07660	protein_coding	ABC transporter substrate-binding protein	NZ_CP022219.1	1611389	1612363	1
+gene-X268_RS07715	X268_RS07715	protein_coding	ABC transporter ATP-binding protein	NZ_CP022219.1	1626926	1628689	1
+gene-X268_RS08780	X268_RS08780	protein_coding	circularly permuted type 2 ATP-grasp protein	NZ_CP022219.1	1866394	1868919	1
+gene-X268_RS10240	X268_RS10240	protein_coding	Gfo/Idh/MocA family protein	NZ_CP022219.1	2196418	2197344	1
+gene-X268_RS10965	X268_RS10965	protein_coding	YunG family protein	NZ_CP022219.1	2356627	2356977	1
+gene-X268_RS12650	X268_RS12650	protein_coding	amino acid ABC transporter permease	NZ_CP022219.1	2715010	2715693	1
+gene-X268_RS12690	X268_RS12690	protein_coding	replicative DNA helicase	NZ_CP022219.1	2721633	2723138	1
+gene-X268_RS12840	X268_RS12840	protein_coding	hypothetical protein	NZ_CP022219.1	2746624	2747772	1
+gene-X268_RS13075	X268_RS13075	protein_coding	ribonuclease D	NZ_CP022219.1	2794329	2795477	1
+gene-X268_RS13490	X268_RS13490	protein_coding	DUF6894 family protein	NZ_CP022219.1	2870030	2870260	1
+gene-X268_RS13520	X268_RS13520	protein_coding	SH3 domain-containing protein	NZ_CP022219.1	2875899	2876888	1
+gene-X268_RS13755	X268_RS13755	protein_coding	DUF1236 domain-containing protein	NZ_CP022219.1	2918195	2919061	1
+gene-X268_RS13805	X268_RS13805	protein_coding	peptide chain release factor 2	NZ_CP022219.1	2934352	2935483	1
+gene-X268_RS13960	X268_RS13960	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022219.1	2969885	2970847	1
+gene-X268_RS15170	X268_RS15170	protein_coding	ABC transporter ATP-binding protein	NZ_CP022219.1	3217245	3218228	1
+gene-X268_RS15905	X268_RS15905	protein_coding	NUDIX hydrolase	NZ_CP022219.1	3362971	3363363	1
+gene-X268_RS16075	X268_RS16075	protein_coding	excinuclease ABC subunit UvrA	NZ_CP022219.1	3393989	3396967	1
+gene-X268_RS17015	X268_RS17015	protein_coding	NADH-quinone oxidoreductase subunit A	NZ_CP022219.1	3599805	3600170	1
+gene-X268_RS17850	X268_RS17850	protein_coding	ribonuclease R	NZ_CP022219.1	3770102	3772465	1
+gene-X268_RS19055	X268_RS19055	protein_coding	50S ribosomal protein L7/L12	NZ_CP022219.1	3990376	3990753	1
+gene-X268_RS19070	X268_RS19070	protein_coding	50S ribosomal protein L1	NZ_CP022219.1	3992949	3993641	1
+gene-X268_RS19080	X268_RS19080	protein_coding	transcription termination/antitermination protein NusG	NZ_CP022219.1	3994212	3994766	1
+gene-X268_RS20120	X268_RS20120	protein_coding	hypothetical protein	NZ_CP022219.1	4193875	4194192	1
+gene-X268_RS20495	X268_RS20495	protein_coding	DUF2000 family protein	NZ_CP022219.1	4271691	4272101	1
+gene-X268_RS39570	X268_RS39570	protein_coding	hypothetical protein	NZ_CP022219.1	4283333	4283506	1
+gene-X268_RS21665	X268_RS21665	protein_coding	c-type cytochrome	NZ_CP022219.1	4513093	4513539	1
+gene-X268_RS22570	X268_RS22570	protein_coding	GcrA family cell cycle regulator	NZ_CP022219.1	4710505	4711035	1
+gene-X268_RS22885	X268_RS22885	protein_coding	DUF6662 family protein	NZ_CP022219.1	4769367	4770272	1
+gene-X268_RS23100	X268_RS23100	protein_coding	imidazolonepropionase	NZ_CP022219.1	4813509	4814723	1
+gene-X268_RS23250	X268_RS23250	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022219.1	4847846	4848673	1
+gene-X268_RS23650	X268_RS23650	protein_coding	c-type cytochrome	NZ_CP022219.1	4924421	4925056	1
+gene-X268_RS24200	X268_RS24200	protein_coding	ferrous iron transporter B	NZ_CP022219.1	5050656	5052527	1
+gene-X268_RS25360	X268_RS25360	protein_coding	polyhydroxyalkanoic acid system family protein	NZ_CP022219.1	5311743	5312060	1
+gene-X268_RS25530	X268_RS25530	protein_coding	hypothetical protein	NZ_CP022219.1	5344376	5344711	1
+gene-X268_RS25550	X268_RS25550	protein_coding	FAD-dependent oxidoreductase	NZ_CP022219.1	5347399	5349132	1
+gene-X268_RS26070	X268_RS26070	protein_coding	branched-chain amino acid ABC transporter ATP-binding protein/permease	NZ_CP022219.1	5449510	5451282	1
+gene-X268_RS29050	X268_RS29050	protein_coding	GlsB/YeaQ/YmgE family stress response membrane protein	NZ_CP022219.1	6057486	6057755	1
+gene-X268_RS29055	X268_RS29055	protein_coding	ABC transporter ATP-binding protein	NZ_CP022219.1	6057864	6058841	1
+gene-X268_RS29215	X268_RS29215	protein_coding	NAD(P)H-dependent flavin oxidoreductase	NZ_CP022219.1	6098670	6099635	1
+gene-X268_RS29870	X268_RS29870	protein_coding	aminotransferase class V-fold PLP-dependent enzyme	NZ_CP022219.1	6227362	6228678	1
+gene-X268_RS30060	X268_RS30060	protein_coding	methionyl-tRNA formyltransferase	NZ_CP022219.1	6261072	6261995	1
+gene-X268_RS30170	X268_RS30170	protein_coding	UDP-glucose dehydrogenase family protein	NZ_CP022219.1	6282053	6283369	1
+gene-X268_RS30580	X268_RS30580	protein_coding	IclR family transcriptional regulator domain-containing protein	NZ_CP022219.1	6365611	6366396	1
+gene-X268_RS30935	X268_RS30935	protein_coding	efflux RND transporter permease subunit	NZ_CP022219.1	6442354	6445521	1
+gene-X268_RS31610	X268_RS31610	protein_coding	AMP-binding protein	NZ_CP022219.1	6603225	6604805	1
+gene-X268_RS31960	X268_RS31960	protein_coding	bifunctional 3-hydroxydecanoyl-ACP dehydratase/trans-2-decenoyl-ACP isomerase	NZ_CP022219.1	6680741	6681262	1
+gene-X268_RS32065	X268_RS32065	protein_coding	double-strand break repair helicase AddA	NZ_CP022219.1	6704403	6707912	1
+gene-X268_RS32070	X268_RS32070	protein_coding	thioredoxin	NZ_CP022219.1	6707982	6708302	1
+gene-X268_RS33155	X268_RS33155	protein_coding	acetate--CoA ligase	NZ_CP022219.1	6920593	6922539	1
+gene-X268_RS33320	X268_RS33320	protein_coding	radical SAM protein	NZ_CP022219.1	6953233	6954663	1
+gene-X268_RS33435	X268_RS33435	protein_coding	succinate dehydrogenase iron-sulfur subunit	NZ_CP022219.1	6980189	6980971	1
+gene-X268_RS33700	X268_RS33700	protein_coding	DUF2794 domain-containing protein	NZ_CP022219.1	7030418	7030789	1
+gene-X268_RS34540	X268_RS34540	protein_coding	transketolase	NZ_CP022220.1	433	2463	1
+gene-X268_RS34610	X268_RS34610	protein_coding	Tm-1-like ATP-binding domain-containing protein	NZ_CP022220.1	16854	18089	1
+gene-X268_RS34895	X268_RS34895	protein_coding	IS66 family transposase	NZ_CP022220.1	79297	80856	1
+gene-X268_RS34995	X268_RS34995	protein_coding	RraA family protein	NZ_CP022220.1	101725	102432	1
+gene-X268_RS35050	X268_RS35050	protein_coding	HesA/MoeB/ThiF family protein	NZ_CP022220.1	111089	112288	1
+gene-X268_RS35090	X268_RS35090	protein_coding	CBASS cGAMP-activated phospholipase	NZ_CP022220.1	118214	119230	1
+gene-X268_RS35175	X268_RS35175	protein_coding	hypothetical protein	NZ_CP022220.1	137938	139494	1
+gene-X268_RS35180	X268_RS35180	protein_coding	helix-turn-helix domain-containing protein	NZ_CP022220.1	139510	140280	1
+gene-X268_RS35320	X268_RS35320	protein_coding	restriction endonuclease	NZ_CP022220.1	164264	165010	1
+gene-X268_RS35725	X268_RS35725	protein_coding	Glu/Leu/Phe/Val family dehydrogenase	NZ_CP022220.1	246218	247477	1
+gene-X268_RS35745	X268_RS35745	protein_coding	acetyl-CoA carboxylase biotin carboxylase subunit	NZ_CP022220.1	250855	252219	1
+gene-X268_RS35780	X268_RS35780	protein_coding	ABC transporter permease	NZ_CP022220.1	256671	257567	1
+gene-X268_RS36210	X268_RS36210	protein_coding	FAD-dependent oxidoreductase	NZ_CP022220.1	354246	356024	1
+gene-X268_RS36275	X268_RS36275	protein_coding	substrate-binding protein	NZ_CP022220.1	367405	368625	1
+gene-X268_RS36395	X268_RS36395	protein_coding	NAD(P)-dependent oxidoreductase	NZ_CP022220.1	399371	400186	1
+gene-X268_RS36455	X268_RS36455	protein_coding	substrate-binding domain-containing protein	NZ_CP022220.1	413648	414739	1
+gene-X268_RS36475	X268_RS36475	protein_coding	NAD(P)/FAD-dependent oxidoreductase	NZ_CP022220.1	417857	419143	1
+gene-X268_RS36580	X268_RS36580	protein_coding	hypothetical protein	NZ_CP022220.1	437516	438196	1
+gene-X268_RS36605	X268_RS36605	pseudogene	group II intron reverse transcriptase/maturase	NZ_CP022220.1	441365	442179	1
+gene-X268_RS36670	X268_RS36670	pseudogene	IS3 family transposase	NZ_CP022220.1	454779	455913	1
+gene-X268_RS36790	X268_RS36790	protein_coding	P-II family nitrogen regulator	NZ_CP022220.1	483060	483398	1
+gene-X268_RS36905	X268_RS36905	protein_coding	conjugal transfer protein TraG	NZ_CP022220.1	506575	508557	1
+gene-X268_RS37045	X268_RS37045	protein_coding	IS91 family transposase	NZ_CP022220.1	530416	531609	1
+gene-X268_RS40640	X268_RS40640	protein_coding	IS66 family transposase	NZ_CP022220.1	551464	552015	1
+gene-X268_RS37275	X268_RS37275	pseudogene	IS66 family transposase	NZ_CP022220.1	582296	583845	1
+gene-X268_RS37480	X268_RS37480	protein_coding	IS110 family RNA-guided transposase	NZ_CP022220.1	621949	622977	1
+gene-X268_RS38370	X268_RS38370	protein_coding	SDR family oxidoreductase	NZ_CP022220.1	820679	821560	1
+gene-X268_RS38405	X268_RS38405	protein_coding	quinone oxidoreductase family protein	NZ_CP022220.1	830252	831247	1
+gene-X268_RS38550	X268_RS38550	protein_coding	LysR family transcriptional regulator	NZ_CP022220.1	863075	863962	1
+gene-X268_RS38590	X268_RS38590	protein_coding	aldo/keto reductase	NZ_CP022220.1	871718	872749	1
+gene-X268_RS38670	X268_RS38670	protein_coding	MFS transporter	NZ_CP022220.1	885578	886813	1
+gene-X268_RS38710	X268_RS38710	protein_coding	LysR family transcriptional regulator	NZ_CP022220.1	895553	896458	1
+gene-X268_RS38840	X268_RS38840	protein_coding	GNAT family N-acetyltransferase	NZ_CP022220.1	924308	924835	1
+gene-X268_RS39910	X268_RS39910	protein_coding	hypothetical protein	NZ_CP022220.1	926356	926586	1
+gene-X268_RS38860	X268_RS38860	protein_coding	XRE family transcriptional regulator	NZ_CP022220.1	926796	927152	1
+gene-X268_RS38925	X268_RS38925	protein_coding	putative bifunctional diguanylate cyclase/phosphodiesterase	NZ_CP022220.1	940738	942546	1

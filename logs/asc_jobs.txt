@@ -1,0 +1,36 @@
+submitted 2026-10-20T23:49:02-05:00
+QC      : 105462.asax-pbs1
+VALIDATE: 105463.asax-pbs1
+VIRUS   : 105464.asax-pbs1
+
+asax-pbs1: 
+                                                            Req'd  Req'd   Elap
+Job ID          Username Queue    Jobname    SessID NDS TSK Memory Time  S Time
+--------------- -------- -------- ---------- ------ --- --- ------ ----- - -----
+105462.asax-pb* aubfxp0* medium   cd_qc_rna     --    1   8    8gb 04:00 Q   -- 
+105463.asax-pb* aubfxp0* medium   cd_val_rna    --    1  16   16gb 24:00 H   -- 
+105464.asax-pb* aubfxp0* medium   cd_virus_*    --    1  16   16gb 12:00 H   -- 
+resubmitted 2026-10-21T00:10:19-05:00 (after /usr/bin/time + exit-code fix)
+VALIDATE: 105466.asax-pbs1
+VIRUS   : 105467.asax-pbs1
+Job ID          Username Queue    Jobname    SessID NDS TSK Memory Time  S Time
+--------------- -------- -------- ---------- ------ --- --- ------ ----- - -----
+105466.asax-pb* aubfxp0* medium   cd_val_rna    --    1  16   16gb 24:00 Q   -- 
+105467.asax-pb* aubfxp0* medium   cd_virus_*    --    1  16   16gb 12:00 H   -- 
+phase B submitted 2026-10-21T04:19:14-05:00
+HOST_REF: 105474.asax-pbs1
+Job ID          Username Queue    Jobname    SessID NDS TSK Memory Time  S Time
+--------------- -------- -------- ---------- ------ --- --- ------ ----- - -----
+105474.asax-pb* aubfxp0* medium   cd_host_r*    --    1  16   16gb 12:00 Q   -- 
+HOST_RNA: 105475.asax-pbs1 (afterok:105474)
+2026-10-21T04:39:14-05:00 QC_WGS: 105476.asax-pbs1  HOST_WGS: 105477.asax-pbs1 (afterok QC_WGS,105474)
+2026-10-21T04:39:15-05:00 K2_RNA: 105478.asax-pbs1
+K2_WGS: 105479.asax-pbs1
+2026-10-21T06:05:17-05:00 VAL2: 105495.asax-pbs1
+deleted 105495 (queued, never started)
+2026-10-21T06:10:25-05:00 VAL2A: 105496.asax-pbs1  VAL2B: 105497.asax-pbs1
+Job ID          Username Queue    Jobname    SessID NDS TSK Memory Time  S Time
+--------------- -------- -------- ---------- ------ --- --- ------ ----- - -----
+105496.asax-pb* aubfxp0* medium   cd_val2a      --    1  16   16gb 08:00 Q   -- 
+105497.asax-pb* aubfxp0* large    cd_val2b      --    1  16   32gb 04:00 Q   -- 
+2026-10-21T06:39:25-05:00 VAL2C: 105500.asax-pbs1

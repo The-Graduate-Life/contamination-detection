@@ -1,0 +1,3 @@
+run_accession	read_count	base_count	fastq_bytes	fastq_md5	fastq_ftp	instrument_model	library_layout
+SRR39022911	9726260	2664995240	682832980;759398052	f1eac8bf0be94b38f070df911304f12c;0c8ed4a4a37eb04d069551034e318c2c	ftp.sra.ebi.ac.uk/vol1/fastq/SRR390/011/SRR39022911/SRR39022911_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR390/011/SRR39022911/SRR39022911_2.fastq.gz	Illumina NovaSeq 6000	PAIRED
+SRR29854842	21801972	6474020056	1392220773;1432891416	a5303be1991d2d56e2e9902c15528899;ac5f87a84ddced3c1f31b77f201acbe7	ftp.sra.ebi.ac.uk/vol1/fastq/SRR298/042/SRR29854842/SRR29854842_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR298/042/SRR29854842/SRR29854842_2.fastq.gz	Illumina HiSeq 2500	PAIRED

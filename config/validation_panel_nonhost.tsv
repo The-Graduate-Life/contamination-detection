@@ -1,0 +1,27 @@
+# Second validation panel: candidates from Kraken2/Bracken on the NON-HOST pools (+ STAT/sendsketch WGS bacteria),
+# each with close competitors; abundant validated organisms included as competitors to absorb cross-mapping.
+# group	accession	type	label	role
+cutibacterium	GCF_006739385.1	assembly	Cacnes_NBRC107605	candidate: Cutibacterium acnes (Kraken2 RNA/WGS; STAT RNA)
+cutibacterium	GCF_030295285.1	assembly	Cgranulosum_TP-CG7	competitor: Cutibacterium granulosum
+enterobacterales	GCF_000006945.2	assembly	Senterica_LT2	candidate: Salmonella enterica (Kraken2 RNA)
+enterobacterales	GCF_000240185.1	assembly	Kpneumoniae_HS11286	candidate: Klebsiella pneumoniae (STAT WGS)
+enterobacterales	GCF_000008865.2	assembly	Ecoli_Sakai	competitor: Escherichia coli
+bacillus	GCF_000161615.1	assembly	Bthuringiensis_ATCC10792	candidate: Bacillus thuringiensis (Kraken2 RNA)
+bacillus	GCF_006094295.1	assembly	Bcereus_ATCC14579	competitor: Bacillus cereus
+bacillus	GCF_000009045.1	assembly	Bsubtilis_168	competitor: Bacillus subtilis
+talaromyces	GCF_009556855.1	assembly	Tmarneffei	candidate: Talaromyces marneffei (Kraken2/STAT RNA)
+talaromyces	GCF_001896365.1	assembly	Tamestolkiae_CIB	candidate: Talaromyces amestolkiae (STAT RNA)
+talaromyces	GCA_001571465.2	assembly	Tpinophilus_1-95	candidate: Talaromyces pinophilus (sendsketch RNA)
+fusarium_comp	GCF_000149955.1	assembly	Fol_4287	competitor: validated F. oxysporum (absorbs conserved fungal reads)
+larkinella	GCF_026278345.1	assembly	Lroseola_U15T	candidate: Larkinella roseola (Kraken2 WGS)
+pseudoalteromonas	GCF_000238275.3	assembly	Pundina_DSM6065	candidate: Pseudoalteromonas undina (Kraken2 WGS)
+sphingomonas	GCF_000379045.1	assembly	Smelonis_DAPP-PG224	candidate: Sphingomonas melonis (Kraken2 WGS)
+xanthomonadales	GCF_009931595.1	assembly	Xalbilineans_Xa-FJ1	candidate: Xanthomonas albilineans (Kraken2 WGS)
+xanthomonadales	GCF_020641395.2	assembly	Smaltophilia_ACYCa6E	candidate: Stenotrophomonas maltophilia (STAT WGS 'S. hibiscicola')
+aeromonas	GCF_900476005.1	assembly	Acaviae_NCTC12244	candidate: Aeromonas caviae (STAT WGS)
+enterococcus	GCF_000393015.1	assembly	Efaecalis_T5	candidate: Enterococcus faecalis (sendsketch WGS)
+plasmodium	GCF_001680005.1	assembly	Pcoatneyi_Hackeri	candidate: Plasmodium coatneyi (Kraken2 WGS; suspected misassignment)
+plasmodium	GCF_000006355.2	assembly	Pknowlesi_H	competitor: Plasmodium knowlesi
+streptomyces	GCF_003595235.1	assembly	Sgriseorubiginosus_3E-1	candidate: Streptomyces griseorubiginosus (Kraken2 RNA)
+bradyrhizobium_comp	GCF_004114915.1	assembly	Bgx_CCBAU53363	competitor: validated B. guangxiense (absorbs alphaproteobacterial reads)
+phix	NC_001422.1	nuccore	phiX174	control: Illumina PhiX spike-in

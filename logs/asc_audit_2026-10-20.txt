@@ -1,0 +1,160 @@
+== host/OS
+asaxlogin1
+PRETTY_NAME="Rocky Linux 9.6 (Blue Onyx)"
+8
+               total        used        free      shared  buff/cache   available
+Mem:              56          12           2           1          43          44
+== scheduler
+sbatch      -
+sinfo       -
+squeue      -
+qsub        /sysopt/pbs/bin/qsub
+qstat       /sysopt/pbs/bin/qstat
+run_script  /scripts/run_script
+== scratch candidates
+drwx------ 6 aubfxp001 aubagsci 4096 Oct 18 18:40 /scratch/aubfxp001
+SCRATCH=/scratch/aubfxp001
+panfs://10.6.2.1/scratch  1.3P  825T  499T  63% /scratch
+== quota
+== conda/modules
+anaconda/
+anaconda/2-2019.10
+anaconda/3-2019.03
+anaconda/3-2019.07
+anaconda/3-2019.10
+anaconda/3-2020.02
+anaconda/3-2020.07
+anaconda/3-2020.11
+anaconda/3-2021.05
+anaconda/3-2021.11
+anaconda/3-2022.05
+anaconda/3-2022.10
+anaconda/3-2022.10b
+anaconda/3-2023.03
+anaconda/3-2023.07
+anaconda/3-2024.02
+anaconda/3-2024.10
+anaconda/3-2025.06
+anaconda/3-2025.06-old
+anaconda/3-2025.06_a
+== internet from login node
+HTTP/1.1 200 OK
+HTTP/2 405 
+HTTP/2 200 
+== queues
+Queue              Max   Tot Ena Str   Que   Run   Hld   Wat   Trn   Ext Type
+---------------- ----- ----- --- --- ----- ----- ----- ----- ----- ----- ----
+workq                0     0  no  no     0     0     0     0     0     0 Exe*
+small                0     0 yes yes     0     0     0     0     0     0 Exe*
+medium               0    32 yes yes     1    31     0     0     0     0 Exe*
+large                0   169 yes yes    53   116     0     0     0     0 Exe*
+benchmark            0     1 yes yes     1     0     0     0     0     0 Exe*
+express              0     0 yes yes     0     0     0     0     0     0 Exe*
+class                0     1 yes yes     0     1     0     0     0     0 Exe*
+gpu                  0     5 yes yes     0     3     2     0     0     0 Exe*
+bigmem               0     5 yes yes     0     5     0     0     0     0 Exe*
+special              0     1 yes yes     0     1     0     0     0     0 Exe*
+commercial           0     0 yes yes     0     0     0     0     0     0 Exe*
+sysadmin             0     0 yes yes     0     0     0     0     0     0 Exe*
+test                 0     0  no  no     0     0     0     0     0     0 Exe*
+classgpu             0     0 yes yes     0     0     0     0     0     0 Exe*
+interactive          0     0 yes yes     0     0     0     0     0     0 Exe*
+== queue limits
+Queue: workq
+    enabled = False
+    started = False
+Queue: small
+    resources_max.mem = 4gb
+    resources_max.ncpus = 8
+    resources_max.walltime = 60:00:00
+    enabled = True
+    started = True
+Queue: medium
+    resources_max.mem = 16gb
+    resources_max.ncpus = 16
+    resources_max.walltime = 150:00:00
+    enabled = True
+    started = True
+Queue: large
+    resources_max.mem = 120gb
+    resources_max.ncpus = 128
+    resources_max.walltime = 360:00:00
+    enabled = True
+    started = True
+Queue: benchmark
+    resources_max.mem = 490gb
+    resources_max.ncpus = 128
+    resources_max.walltime = 24:00:00
+    enabled = True
+    started = True
+Queue: express
+    resources_max.mem = 16gb
+    resources_max.ncpus = 4
+    resources_max.walltime = 04:00:00
+    enabled = True
+    started = True
+Queue: class
+    resources_max.mem = 64gb
+    resources_max.ncpus = 60
+    resources_max.walltime = 12:00:00
+    enabled = True
+    started = True
+Queue: gpu
+    resources_max.mem = 120gb
+    resources_max.ncpus = 24
+    resources_max.walltime = 360:00:00
+    enabled = True
+    started = True
+Queue: bigmem
+    resources_max.mem = 500gb
+    resources_max.ncpus = 32
+    resources_max.walltime = 360:00:00
+    enabled = True
+    started = True
+Queue: special
+    resources_max.mem = 2000gb
+    resources_max.ncpus = 64
+    resources_max.walltime = 1008:00:00
+    enabled = True
+    started = True
+Queue: commercial
+    resources_max.mem = 360gb
+    resources_max.ncpus = 128
+== scratch contents (top level)
+total 2268
+drwx------   6 aubfxp001 aubagsci   4096 Oct 18 18:40 .
+drwxrwxrwx 506 root      root     135168 Oct 20 20:46 ..
+-rw-r--r--   1 aubfxp001 aubagsci 399861 Oct 18 18:11 asc_bundle.tar.gz
+drwxr-xr-x   5 aubfxp001 aubagsci   4096 Oct 18 18:27 contam_stageB
+drwxr-xr-x   2 aubfxp001 aubagsci 262144 Oct 20 08:47 db
+drwxr-xr-x   2 aubfxp001 aubagsci   4096 Aug 30 22:21 test_dir
+drwxr-xr-x  12 aubfxp001 aubagsci   4096 Oct  7 00:59 week7
+1.1T	/scratch/aubfxp001
+== purge policy hints
+== anaconda module
+bash: line 5: conda: command not found
+   /apps/x86-64/etc/modulefiles/anaconda/3-2025.06.lua:
+help([[
+ Configures environment for Anaconda.
+ Local documentation is at https://hpcdocs.asc.edu/
+ Package download information: https://www.continuum.io/downloads
+category=ecosystem
+]])
+whatis("is the Anaconda 3-2025.06 providing Python 3")
+load("openmpi/4.1.4-gcc11")
+load("cuda/12.6.0_rocky9")
+load("gcc/11.3.0")
+prepend_path("PATH","/apps/x86-64/apps/anaconda_3-2025.06/bin")
+prepend_path("PATH","/apps/x86-64/apps/anaconda_3-2025.06/rhometa/bin")
+prepend_path("PATH","/apps/x86-64/apps/anaconda_3-2025.06/share/vibrant-1.0.1/databases")
+prepend_path("PATH","/apps/x86-64/apps/anaconda_3-2025.06/share/rdptools-2.0.3-1")
+prepend_path("PATH","/apps/x86-64/apps/anaconda_3-2025.06/pkgs/juicertools-2.20.00-hdfd78af_0/bin")
+prepend_path("INCLUDEDIR","/apps/x86-64/apps/anaconda_3-2025.06/include")
+append_path("LD_LIBRARY_PATH","/apps/x86-64/apps/anaconda_3-2025.06/lib")
+append_path("LIBPATH","/apps/x86-64/apps/anaconda_3-2025.06/lib")
+append_path("SHLIB_PATH","/apps/x86-64/apps/anaconda_3-2025.06/lib")
+append_path("LIBRARY_PATH","/apps/x86-64/apps/anaconda_3-2025.06/lib")
+setenv("QT_PLUGIN_PATH","/apps/x86-64/apps/anaconda_3-2025.06/plugins")
+setenv("VIBRANT_DATA_PATH","/apps/x86-64/apps/anaconda_3-2025.06/share/vibrant-1.0.1")
+setenv("CUDA_HOME","/apps/x86-64/apps/cuda_11.7.0")
+prepend_path("CLASSPATH","/apps/x86-64/apps/anaconda_3-2025.06/share/rdptools-2.0.3-1")

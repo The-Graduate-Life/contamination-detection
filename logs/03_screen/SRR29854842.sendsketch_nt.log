@@ -1,0 +1,7 @@
+java -ea  --add-modules jdk.incubator.vector  -Xmx1g -Xms1g -cp /home/fp/miniforge3/envs/contam/opt/bbmap-40.05-0/current/ sketch.SendSketch in=data/subsample/SRR29854842_1.sub500000.s11.fastq.gz address=nt records=50 format=3 printdepth=t printdepth2=t minhits=3 out=results/03_screen/sendsketch/SRR29854842.nt.tsv -Xmx1g
+WARNING: Using incubator modules: jdk.incubator.vector
+Adding /home/fp/miniforge3/envs/contam/opt/bbmap-40.05-0/resources/blacklist_nt_merged.sketch to blacklist.
+0.024 seconds.
+Starting 8 load threads.
+Loaded 1 sketch in 2.668 seconds.
+Total Time: 	5.063 seconds.

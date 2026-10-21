@@ -1,0 +1,15 @@
+#!/bin/bash
+# ASC job: targeted virus assembly, annotation and full-read remapping (step 7) for the RNA-seq run.
+# Requires step 6 (full) and the virus databases (scripts/07a_virus_dbs.sh, login node: downloads).
+#PBS -N cd_virus_rna
+#PBS -q medium
+#PBS -l select=1:ncpus=16:mem=16gb
+#PBS -l walltime=12:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+mkdir -p logs/07_virus
+bash scripts/07_virus_assembly.sh SRR29854842 > logs/07_virus/asc_run.log 2>&1
+rc=$?
+echo "exit $rc"
+exit $rc   # propagate status so afterok dependencies behave

@@ -1,0 +1,12 @@
+[2026-10-21 04:15:54] SRR29854842/bradyrhizobium: 8230 fragments identity>=0.98 & aligned>=80%, 29679 others
+[INFO][0m 8230 patterns loaded from file
+[INFO][0m 8230 patterns loaded from file
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+run	group	label	stratum	min_identity	fragments_realigned	genes_annotated	genes_ge1	genes_ge5	pct_fragments_rRNA	pct_fragments_intergenic
+SRR29854842	bradyrhizobium	Bgx_CCBAU53363	high	0.98	8195	7842	338	47	86.65	2.01
+[INFO][0m 29679 patterns loaded from file
+[INFO][0m 29679 patterns loaded from file
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+run	group	label	stratum	min_identity	fragments_realigned	genes_annotated	genes_ge1	genes_ge5	pct_fragments_rRNA	pct_fragments_intergenic
+SRR29854842	bradyrhizobium	Bgx_CCBAU53363	low	0.98	26757	7842	337	58	96.20	0.31
+[2026-10-21 04:20:35] Step 9 complete: results/04_validation/SRR29854842/genes/Bgx_CCBAU53363/gene_summary.tsv

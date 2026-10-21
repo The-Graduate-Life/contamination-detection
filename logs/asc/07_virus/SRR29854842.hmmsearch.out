@@ -1,0 +1,262 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  databases/virus/pfam/rdrp.hmm
+# target sequence database:        results/05_virus/SRR29854842/contigs.6frame.faa
+# per-dom hits tabular output:     results/05_virus/SRR29854842/rdrp_hmmsearch.domtbl
+# sequence reporting threshold:    E-value <= 1e-05
+# number of worker threads:        16
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RdRP_1  [M=450]
+Accession:   PF00680.26
+Description: Viral RNA-dependent RNA polymerase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+      6e-83  270.1   0.8    1.7e-82  268.6   0.2    2.1  2  SRR29854842_k141_4_frame=2  
+
+
+Domain annotation for each sequence (and alignments):
+>> SRR29854842_k141_4_frame=2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   0.0     0.054       1.9     115     168 ..    1079    1134 ..    1068    1135 .. 0.80
+   2 !  268.6   0.2   4.8e-84   1.7e-82      11     449 ..    2500    2913 ..    2493    2914 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 0.054
+                      RdRP_1  115 dlvehlkdgtearvlaerlaadwe...vlqkgtplklvyatcLkdelrpleKveksK 168 
+                                  d  + l+  ++++++ +rl+++w+    l+k++   ++ +++ ++e+  ++Kv ++K
+  SRR29854842_k141_4_frame=2 1079 DIDDLLY-VEMEKIYISRLRQEWRalsLLEKSSVTWHLKRFSVATEKDLIKKVTEGK 1134
+                                  5444444.4899************888888888888888999999999999998877 PP
+
+  == domain 2  score: 268.6 bits;  conditional E-value: 4.8e-84
+                      RdRP_1   11 payvpailkpelprlarsllstdalvddikkYsqpkkegpadeldellnksaakmvlselrgltkkdnslleaksaldsle 91  
+                                   +++ a++kp + +++ s l+ +a  +d  kY++      +  l+e+ ++++++ +   + ++ +    ++e ++++d  e
+  SRR29854842_k141_4_frame=2 2500 RSEAAAFFKPLMGAYQPSKLNKEAFKKDFFKYNK------VVTLNEVCYEAFEAAFNGVVMMMIEH--GFSECSYVTDPEE 2572
+                                  5678899***************************......55554456666666666555555555..89999******** PP
+
+                      RdRP_1   92 aieplnwdtsaGypyvglggkkkdlvehlkdgtearvlaerlaadwevlqkgtplklvyatcLkdelrpleKveksKtRlv 172 
+                                   +++ln++++ G+ y   +gkk+d++ ++++++++r l+ +++      + +  +k++++++Lk+elrpleKve++KtR++
+  SRR29854842_k141_4_frame=2 2573 IYSSLNLKAAVGAQY---KGKKQDYLCDMDKFDKERLLYLSCE------RLFYGKKGLWNGSLKAELRPLEKVEANKTRTF 2644
+                                  ***************...999*********************8......6799**************************** PP
+
+                      RdRP_1  173 wgepveyllleralfdpfisafmannkklpiqvGinpfsrewerllkrlaregeyvyel.DySkFDstvspwlirvafeil 252 
+                                  +++p+++ll +++++d+f+++f++ n ++p++vG+++f+++w++l+++l     ++y+  D+S+FDs+++p l + +  i+
+  SRR29854842_k141_4_frame=2 2645 TAAPMDTLLGAKVCVDDFNNQFYSLNLECPWTVGMTKFYGGWDTLMRKLP--DGWIYCHaDGSQFDSSLTPLLLNSVLGIR 2723
+                                  *************************************************9..56777766********************* PP
+
+                      RdRP_1  253 sellgfpelvke..frallelliyspialpngtvvkkkgGlPSGspfTsviNSivnllliqyallkelekreprvlnldkk 331 
+                                  + +++ +++v+e  +++l+ +++y+pi++p+gtv+kk +G++SG+p+T+v+N+++ +++++y    +++k + +   ++ +
+  SRR29854842_k141_4_frame=2 2724 RFFME-DWWVGEemLENLYAEIVYTPILAPDGTVFKKFRGNNSGQPSTVVDNTLMVVMSVYY----SCHKVGWSDEDIQRR 2799
+                                  *****.9*****9******************************************8877777....899999998899*** PP
+
+                      RdRP_1  332 ldfftyGDDslvavskdfdsvldkvseelkelglkitpakktipvsreleevsFLkrtfkktesgvrdkldrerilsqley 412 
+                                  l ff +GDD +++v++  + vld+++ ++ elgl+++++ +t    r+ e+++F+++   + ++ + +kl+ er +s+le+
+  SRR29854842_k141_4_frame=2 2800 LVFFANGDDIILSVQETDLWVLDTFTKSFGELGLNYDFSERT----RRREDLWFMSHCAIQVDGIYIPKLEPERVVSILEW 2876
+                                  ******************999*********************....999**********9********************* PP
+
+                      RdRP_1  413 vrskevpsqqleni.rllasahgaefysslvyrfvesl 449 
+                                  +rs ++  ++ e+i +++  a+g+ +  +++ +f+ +l
+  SRR29854842_k141_4_frame=2 2877 DRS-KEMMHRTEAIcAAMIEAWGYPELLQEIRKFYLWL 2913
+                                  ***.999999****779******************997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (450 nodes)
+Target sequences:                         36  (37744 residues searched)
+Passed MSV filter:                         1  (0.0277778); expected 0.7 (0.02)
+Passed bias filter:                        1  (0.0277778); expected 0.7 (0.02)
+Passed Vit filter:                         1  (0.0277778); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.0277778); expected 0.0 (1e-05)
+Initial search space (Z):                 36  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 955.22
+//
+Query:       Mononeg_RNA_pol  [M=1068]
+Accession:   PF00946.25
+Description: Mononegavirales RNA dependent RNA polymerase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1068 nodes)
+Target sequences:                         36  (37744 residues searched)
+Passed MSV filter:                         0  (0); expected 0.7 (0.02)
+Passed bias filter:                        0  (0); expected 0.7 (0.02)
+Passed Vit filter:                         0  (0); expected 0.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                 36  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 8067.25
+//
+Query:       RdRP_2  [M=440]
+Accession:   PF00978.27
+Description: RNA dependent RNA polymerase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (440 nodes)
+Target sequences:                         36  (37744 residues searched)
+Passed MSV filter:                         1  (0.0277778); expected 0.7 (0.02)
+Passed bias filter:                        0  (0); expected 0.7 (0.02)
+Passed Vit filter:                         0  (0); expected 0.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                 36  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 5834.52
+//
+Query:       RdRP_3  [M=486]
+Accession:   PF00998.29
+Description: Viral RNA dependent RNA polymerase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (486 nodes)
+Target sequences:                         36  (37744 residues searched)
+Passed MSV filter:                         0  (0); expected 0.7 (0.02)
+Passed bias filter:                        0  (0); expected 0.7 (0.02)
+Passed Vit filter:                         0  (0); expected 0.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                 36  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 6178.89
+//
+Query:       RdRP_4  [M=465]
+Accession:   PF02123.22
+Description: Viral RNA-directed RNA-polymerase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    4.3e-91  297.3   0.0    5.8e-91  296.8   0.0    1.2  1  SRR29854842_k141_5_frame=2  
+
+
+Domain annotation for each sequence (and alignments):
+>> SRR29854842_k141_5_frame=2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  296.8   0.0   1.6e-92   5.8e-91       3     462 ..     694    1083 ..     692    1086 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 296.8 bits;  conditional E-value: 1.6e-92
+                      RdRP_4    3 rllktkeiekelfplkswpaagekaliarslkselsslalwlgraksaetpeedqvaaillytieayaaskpgvp..yslk 81  
+                                   ++++++ ++e++  ++wp+ g +a    +lks + ++++wl+ra+sa+ p+ ++++++++++++ y++ +   p  +   
+  SRR29854842_k141_5_frame=2  694 EVIRKHPNLGEKTHGFGWPQFGPQA----ELKSLRLQASRWLDRAQSAQVPSPAERERVIKRLVSSYQQAQSINPvaTMSG 770 
+                                  578899999****************....*******************************************999875554 PP
+
+                      RdRP_4   82 eaawanssdflkalsdilkslganassigsklvelnpLlgrgvtnvdleeeaksrvdlavverqvllpeeelrdaidavle 162 
+                                  e  w    dfl+++++++ sl+ +a+  +++ + ++p      t++ l+e+ + +++la +++++l +  +     +  +e
+  SRR29854842_k141_5_frame=2  771 ELLWD---DFLQSFKEAVSSLQLDAGVGVPYVALGKP------THRSLVEDPEMLPVLARLTFDRLEKLSK-EGVCRLTPE 841 
+                                  66777...*****************************......**********************999999.99******* PP
+
+                      RdRP_4  163 elvvrkglcdpirlfvkneplwlvnGhkdkkleegrlrllssvslvdqlvermlfetqnnnevaawgsvpskpsmklehgk 243 
+                                  elv ++glcdpir fvk ep      hk++kl+egr+rl++svslvdqlv+r+lf++qn++e+a+w+ vpskp+++l    
+  SRR29854842_k141_5_frame=2  842 ELV-KQGLCDPIRVFVKGEP------HKQSKLDEGRYRLIMSVSLVDQLVARVLFQEQNKKEIALWRVVPSKPGFGL---- 911 
+                                  ***.****************......***************************************************.... PP
+
+                      RdRP_4  244 sRaiyacdtvsylafeyllapvekawanksvilnpgegdisgfdwsvqdwerglvllmlDydDfn.sqhstesmravieel 323 
+                                  s++ ++ ++ + la +++++p +  +++++ +l p+  d+sgfdwsv+dw        +++dD + +++ t+ +  v++++
+  SRR29854842_k141_5_frame=2  912 STDQQVLEFTEALAHKVGVTP-QTLIEEWKDHLVPT--DCSGFDWSVADW--------MLEDDIEvRNRLTRGLTPVTATM 981 
+                                  *******************99.6699**********..************........*********************** PP
+
+                      RdRP_4  324 rrrlgkelaellkwlvasmdsmlvlsdgtllaqrvpGtlkSGsraTtfiNSvlNvayaelvgapwfdvstsihmGDDvllg 404 
+                                  rr          +w  ++ +s+l+lsdgtllaq+vpG++kSGs++T+++NS+ +v+ a+++ga w     + +mGDD+l++
+  SRR29854842_k141_5_frame=2  982 RR----------NWKHCIANSVLCLSDGTLLAQIVPGVQKSGSYNTSSTNSRVRVMCAYHCGATW-----CCAMGDDALES 1047
+                                  **..........*****************************************************.....*********** PP
+
+                      RdRP_4  405 lreladatellekyarlgfkvkaskqsvgitsaeFlRvafcshevrGYlaravaslvs 462 
+                                  +++       le+y+rlg+kv+ s +++           fcsh +     ++++++++
+  SRR29854842_k141_5_frame=2 1048 VDS------NLEEYKRLGLKVEVSGKLE-----------FCSHIF-----ESPSLATP 1083
+                                  ***......6*************99888...........777776.....55555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (465 nodes)
+Target sequences:                         36  (37744 residues searched)
+Passed MSV filter:                         1  (0.0277778); expected 0.7 (0.02)
+Passed bias filter:                        1  (0.0277778); expected 0.7 (0.02)
+Passed Vit filter:                         1  (0.0277778); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.0277778); expected 0.0 (1e-05)
+Initial search space (Z):                 36  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 1404.37
+//
+Query:       Mitovir_RNA_pol  [M=497]
+Accession:   PF05919.17
+Description: Mitovirus RNA-dependent RNA polymerase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (497 nodes)
+Target sequences:                         36  (37744 residues searched)
+Passed MSV filter:                         1  (0.0277778); expected 0.7 (0.02)
+Passed bias filter:                        0  (0); expected 0.7 (0.02)
+Passed Vit filter:                         0  (0); expected 0.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                 36  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 5510.77
+//
+[ok]

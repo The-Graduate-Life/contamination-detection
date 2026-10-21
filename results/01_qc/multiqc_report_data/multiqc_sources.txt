@@ -1,0 +1,12 @@
+Module	Section	Sample Name	Source
+SeqKit	stats	SRR39022911_1.sub500000.s11	/home/fp/contamination_detection/results/01_qc/SRR39022911.subsample_stats.tsv
+SeqKit	stats	SRR39022911_2.sub500000.s11	/home/fp/contamination_detection/results/01_qc/SRR39022911.subsample_stats.tsv
+SeqKit	stats	SRR29854842_1.sub500000.s11	/home/fp/contamination_detection/results/01_qc/SRR29854842.subsample_stats.tsv
+SeqKit	stats	SRR29854842_2.sub500000.s11	/home/fp/contamination_detection/results/01_qc/SRR29854842.subsample_stats.tsv
+fastp	all_sections	SRR39022911	/home/fp/contamination_detection/results/01_qc/fastp/SRR39022911.fastp.json
+fastp	all_sections	SRR29854842	/home/fp/contamination_detection/results/01_qc/fastp/SRR29854842.fastp.json
+FastQC	all_sections	SRR39022911_1	/home/fp/contamination_detection/results/01_qc/fastqc_trimmed/SRR39022911_1.trim_fastqc.zip
+FastQC	all_sections	SRR39022911_2	/home/fp/contamination_detection/results/01_qc/fastqc_trimmed/SRR39022911_2.trim_fastqc.zip
+FastQC	all_sections	SRR29854842_1	/home/fp/contamination_detection/results/01_qc/fastqc_trimmed/SRR29854842_1.trim_fastqc.zip
+FastQC	all_sections	SRR29854842_2	/home/fp/contamination_detection/results/01_qc/fastqc_trimmed/SRR29854842_2.trim_fastqc.zip
+Snippy	snippy	multiqc	/home/fp/contamination_detection/results/01_qc/multiqc_report_data/multiqc.log

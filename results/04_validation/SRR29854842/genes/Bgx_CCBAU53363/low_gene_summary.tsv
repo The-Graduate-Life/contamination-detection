@@ -1,0 +1,2 @@
+run	group	label	stratum	min_identity	fragments_realigned	genes_annotated	genes_ge1	genes_ge5	pct_fragments_rRNA	pct_fragments_intergenic
+SRR29854842	bradyrhizobium	Bgx_CCBAU53363	low	0.98	26757	7842	337	58	96.20	0.31

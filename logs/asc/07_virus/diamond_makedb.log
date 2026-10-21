@@ -1,0 +1,21 @@
+diamond v2.2.8.188 (C) Max Planck Society for the Advancement of Science, Benjamin J. Buchfink, University of Tuebingen
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 4
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Input file parameter (--in) is missing. Input will be read from stdin.
+Opening the database file...  [0.005s]
+Loading sequences...  [1.114s]
+Masking sequences...  [1.845s]
+Writing sequences...  [0.416s]
+Hashing sequences...  [0.069s]
+Loading sequences...  [0s]
+Writing trailer...  [0.057s]
+Closing the input file...  [0s]
+Closing the database file...  [0.032s]
+
+Database sequences  722738
+  Database letters  175001826
+     Database hash  c69a3e66dbe1c393366ec81c209c38a5
+        Total time  3.541000s

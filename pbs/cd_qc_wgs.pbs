@@ -1,0 +1,17 @@
+#!/bin/bash
+# ASC job: QC + fastp + subsample for the WGS run (same fastp 1.4.0 parameters as local)
+#PBS -N cd_qc_wgs
+#PBS -q medium
+#PBS -l select=1:ncpus=8:mem=8gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+mkdir -p logs/02_qc
+bash scripts/02_qc_trim_subsample.sh SRR39022911 > logs/02_qc/asc_run_wgs.log 2>&1
+rc=$?; [[ $rc -ne 0 ]] && { echo "exit $rc"; exit $rc; }
+# Reproducibility gate: must equal local trimmed pairs
+got=$(awk -F"\t" '$1=="SRR39022911"{print $3}' results/01_qc/retention.tsv); echo "trimmed pairs: $got (local 8497015)"; [[ "$got" == 8497015 ]]
+rc=$?
+echo "exit $rc"
+exit $rc   # propagate status so afterok dependencies behave

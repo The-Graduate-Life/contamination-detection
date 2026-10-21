@@ -1,0 +1,2 @@
+file	format	type	num_seqs	sum_len	min_len	avg_len	max_len
+references/host/host.fa	FASTA	DNA	444	2558162147	318	5761626.5	160028458

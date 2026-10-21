@@ -1,0 +1,15 @@
+group	label	contig	length	numreads	covbases	breadth_1x_pct	meandepth	meanbaseq	meanmapq	breadth_5x_pct	breadth_10x_pct	stageB_fragments	stageB_mean_identity
+plasmodium	Pknowlesi_H	n_contigs=164	24395979	23884	136289	0.559	0.102	34.7	2.2	0.219	0.129	12001	0.8599
+talaromyces	Tmarneffei	n_contigs=8	28198338	328	4938	0.018	0.001	34.8	4.0	0.003	0.001	168	0.9681
+fusarium_comp	Fol_4287	n_contigs=85	61386934	186	3701	0.006	0.000	34.2	5.8	0.000	0.000	93	0.9551
+enterobacterales	Ecoli_Sakai	n_contigs=3	5594605	94	9832	0.176	0.002	36.0	41.2	0.000	0.000	48	0.9752
+larkinella	Lroseola_U15T	n_contigs=1	5582807	78	501	0.009	0.001	35.8	17.3	0.002	0.002	39	0.9464
+sphingomonas	Smelonis_DAPP-PG224	n_contigs=4	4096205	38	3730	0.091	0.001	35.3	38.3	0.000	0.000	19	0.9795
+bacillus	Bcereus_ATCC14579	n_contigs=2	5431377	18	349	0.006	0.000	35.3	2.9	0.001	0.000	9	0.9290
+cutibacterium	Cacnes_NBRC107605	n_contigs=1	2494738	32	3309	0.133	0.001	35.8	38.6	0.000	0.000	16	0.9870
+streptomyces	Sgriseorubiginosus_3E-1	n_contigs=1	9512378	6	540	0.006	0.000	35.6	17.0	0.000	0.000	3	0.9135
+xanthomonadales	Xalbilineans_Xa-FJ1	n_contigs=2	3756117	8	151	0.004	0.000	35.3	0.5	0.001	0.000	4	0.9474
+pseudoalteromonas	Pundina_DSM6065	n_contigs=4	4027610	4	95	0.002	0.000	34.0	12.0	0.000	0.000	2	0.9500
+enterococcus	Efaecalis_T5	n_contigs=3	2870381	8	522	0.018	0.000	33.4	0.0	0.000	0.000	4	0.8902
+bradyrhizobium_comp	Bgx_CCBAU53363	n_contigs=2	8200121	4	242	0.003	0.000	36.5	24.0	0.000	0.000	2	0.8663
+aeromonas	Acaviae_NCTC12244	n_contigs=1	4586140	2	42	0.001	0.000	36.0	22.0	0.000	0.000	1	0.9286

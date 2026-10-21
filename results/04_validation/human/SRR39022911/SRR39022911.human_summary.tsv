@@ -1,0 +1,6 @@
+run	metric	fragments	pct_trimmed	pct_nonhost_pool
+SRR39022911	aligned	65	0.00076	0.1186
+SRR39022911	mapq20	8	0.00009	0.0146
+SRR39022911	human_confident_mapq20_id98	6	0.00007	0.0109
+SRR39022911	confident_on_chrM	0	0.00000	0.0000
+SRR39022911	confident_distinct_nuclear_sequences	4	NA	NA

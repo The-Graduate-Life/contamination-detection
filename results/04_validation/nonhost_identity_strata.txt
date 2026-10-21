@@ -1,0 +1,34 @@
+=== SRR39022911 (label: all / id>=0.99&aln>=0.8 / id>=0.97&aln>=0.8)
+plasmodium           Pknowlesi_H                  11905       9      24
+plasmodium           Pcoatneyi_Hackeri             2823       0       1
+fusarium_comp        Fol_4287                       169       0       1
+talaromyces          Tmarneffei                     149       0       1
+talaromyces          Tpinophilus_1-95                81       2       2
+larkinella           Lroseola_U15T                   55       0       0
+talaromyces          Tamestolkiae_CIB                50       0       0
+enterobacterales     Ecoli_Sakai                     48      18      33
+sphingomonas         Smelonis_DAPP-PG224             22      14      17
+=== SRR29854842 (label: all / id>=0.99&aln>=0.8 / id>=0.97&aln>=0.8)
+fusarium_comp        Fol_4287                    460927  318531  406562
+talaromyces          Tpinophilus_1-95             31919    6143   18330
+streptomyces         Sgriseorubiginosus_3E-1      29994    9804   13891
+bradyrhizobium_comp  Bgx_CCBAU53363               13768    7247    8339
+cutibacterium        Cacnes_NBRC107605            10390    7598    7805
+cutibacterium        Cgranulosum_TP-CG7            6624     252     619
+sphingomonas         Smelonis_DAPP-PG224           6555     567    1540
+plasmodium           Pknowlesi_H                   5240       0       5
+talaromyces          Tmarneffei                    4241     439     660
+enterococcus         Efaecalis_T5                  2209      88     417
+talaromyces          Tamestolkiae_CIB              2045     126     216
+bacillus             Bsubtilis_168                 1785     121     264
+xanthomonadales      Smaltophilia_ACYCa6E          1709      44     139
+enterobacterales     Ecoli_Sakai                   1579     805     999
+aeromonas            Acaviae_NCTC12244             1479      10      39
+xanthomonadales      Xalbilineans_Xa-FJ1           1422      36     122
+bacillus             Bcereus_ATCC14579             1290      53     151
+plasmodium           Pcoatneyi_Hackeri             1237       0       0
+enterobacterales     Kpneumoniae_HS11286           1004     155     318
+pseudoalteromonas    Pundina_DSM6065                880       5      25
+enterobacterales     Senterica_LT2                  766     115     182
+larkinella           Lroseola_U15T                  678       3       7
+bacillus             Bthuringiensis_ATCC10792        84       5      10

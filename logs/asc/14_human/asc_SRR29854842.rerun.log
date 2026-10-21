@@ -1,0 +1,7 @@
+run	metric	fragments	pct_trimmed	pct_nonhost_pool
+SRR29854842	aligned	19183	0.08945	1.9013
+SRR29854842	mapq20	10821	0.05046	1.0725
+SRR29854842	human_confident_mapq20_id98	10410	0.04854	1.0318
+SRR29854842	confident_on_chrM	317	0.00148	0.0314
+SRR29854842	confident_distinct_nuclear_sequences	30	NA	NA
+[2026-10-21 06:39:26] Step 14 complete for SRR29854842

@@ -1,0 +1,3 @@
+[2026-10-21 00:05:31] host=asax023 job=105463.asax-pbs1 threads=16 prefix=/scratch/aubfxp001/contamination_detection/conda/envs/contam
+trimmed pair count matches local: 21444624
+exit 127

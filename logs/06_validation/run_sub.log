@@ -1,0 +1,38 @@
+[2026-10-20 22:36:35] bowtie2-build panel (644790175 bp)
+[2026-10-20 22:55:27] SRR29854842.sub: Stage A bowtie2 --local vs panel
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+group	fragments	fragments_mapq20	pct_trimmed	pct_candidate_hits	mean_identity	median_identity	pct_aligned_ge80	best_label	best_label_fragments	total_pairs	candidate_hit_fragments
+host_decoy	464176	66033	92.83520	2935.22196	0.9983	1.0000	98.88124	Ahyp_Tifrunner_gnm2_rna	462741	500000	15814
+fusarium	11459	457	2.29180	72.46111	0.9909	1.0000	94.14434	Fol_4287	4500	500000	15814
+potyvirus	3402	0	0.68040	21.51258	0.9978	1.0000	99.85303	BCMV_P02_peanut	1987	500000	15814
+bradyrhizobium	861	23	0.17220	5.44454	0.9240	0.9195	71.66086	Bgz_CCBAU51670	193	500000	15814
+polerovirus	92	63	0.01840	0.58176	0.9410	0.9467	100.00000	CPPV2_RefSeq	90	500000	15814
+
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+[2026-10-20 23:09:23] Step 6 complete for SRR29854842.sub: results/04_validation/SRR29854842.sub
+	Command being timed: "bash scripts/06_validate_candidates.sh SRR29854842 sub"
+	User time (seconds): 7427.92
+	System time (seconds): 366.28
+	Percent of CPU this job got: 396%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 32:48.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1630768
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1600
+	Minor (reclaiming a frame) page faults: 3541076
+	Voluntary context switches: 564708
+	Involuntary context switches: 106514
+	Swaps: 0
+	File system inputs: 2225248
+	File system outputs: 16265272
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

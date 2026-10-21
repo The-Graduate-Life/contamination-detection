@@ -1,0 +1,11 @@
+Sample	seqkit_seqkit-num_seqs	seqkit_seqkit-sum_len	seqkit_seqkit-avg_len	fastp-pct_duplication	fastp-after_filtering_q30_rate	fastp-after_filtering_q30_bases	fastp-filtering_result_passed_filter_reads	fastp-after_filtering_gc_content	fastp-pct_surviving_reads	fastp-pct_surviving_bases	fastp-pct_adapter	fastp-before_filtering_read1_mean_length	fastp-before_filtering_read2_mean_length	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+SRR29854842				41.5932	96.47879999999999	6119.22908	42.889247999999995	45.6993	98.36093725833608	97.96943823369583	0.03139624250503578	148.0	148.0						
+SRR29854842_1														67.88340718637195	45.0	148.2916253043187	150	9.090909090909092	21.444623999999997
+SRR29854842_1.sub500000.s11	0.5	73.911205	147.8																
+SRR29854842_2														67.45702535522209	45.0	148.40900817379685	150	9.090909090909092	21.444623999999997
+SRR29854842_2.sub500000.s11	0.5	73.957343	147.9																
+SRR39022911				4.34009	90.1973	2018.0585879999999	16.99403	39.2636	87.36158605671656	83.95447877047614	9.728235724728725	131.0	143.0						
+SRR39022911_1														22.761247554047003	39.0	126.44626442344753	130	0.0	8.497015
+SRR39022911_1.sub500000.s11	0.5	63.451969999999996	126.9																
+SRR39022911_2														19.38138570091769	39.0	135.98504104088317	142	0.0	8.497015
+SRR39022911_2.sub500000.s11	0.5	68.217204	136.4																

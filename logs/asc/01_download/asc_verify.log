@@ -1,0 +1,6 @@
+[2026-10-20 23:47:25] SRR29854842: downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR298/042/SRR29854842/SRR29854842_1.fastq.gz
+[2026-10-20 23:47:29] SRR29854842: MD5 OK SRR29854842_1.fastq.gz
+[2026-10-20 23:47:29] SRR29854842: downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR298/042/SRR29854842/SRR29854842_2.fastq.gz
+[2026-10-20 23:47:33] SRR29854842: MD5 OK SRR29854842_2.fastq.gz
+[2026-10-20 23:48:20] SRR29854842: 21801972 pairs, counts match SRA, R1/R2 IDs synchronised
+[2026-10-20 23:48:20] Step 1 complete: results/00_verify/read_counts.tsv

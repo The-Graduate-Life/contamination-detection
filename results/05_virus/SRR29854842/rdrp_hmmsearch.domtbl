@@ -1,0 +1,16 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SRR29854842_k141_4_frame=2 -           3405 RdRP_1               PF00680.26   450     6e-83  270.1   0.8   1   2     0.054       1.9   -1.8   0.0   115   168  1079  1134  1068  1135 0.80 -
+SRR29854842_k141_4_frame=2 -           3405 RdRP_1               PF00680.26   450     6e-83  270.1   0.8   2   2   4.8e-84   1.7e-82  268.6   0.2    11   449  2500  2913  2493  2914 0.93 -
+SRR29854842_k141_5_frame=2 -           1950 RdRP_4               PF02123.22   465   4.3e-91  297.3   0.0   1   1   1.6e-92   5.8e-91  296.8   0.0     3   462   694  1083   692  1086 0.95 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      databases/virus/pfam/rdrp.hmm
+# Target file:     results/05_virus/SRR29854842/contigs.6frame.faa
+# Option settings: hmmsearch --domtblout results/05_virus/SRR29854842/rdrp_hmmsearch.domtbl -E 1e-5 --cpu 16 databases/virus/pfam/rdrp.hmm results/05_virus/SRR29854842/contigs.6frame.faa 
+# Current dir:     /scratch/aubfxp001/contamination_detection
+# Date:            Wed Oct 21 01:38:18 2026
+# [ok]

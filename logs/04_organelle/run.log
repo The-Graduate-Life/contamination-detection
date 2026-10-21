@@ -1,0 +1,7 @@
+[2026-10-20 22:20:00] SRR39022911: bowtie2 -> organelles
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+[2026-10-20 22:24:03] SRR39022911: 887167 of 8497015 pairs organelle-like (513855 at MAPQ>=20)
+[2026-10-20 22:24:03] SRR29854842: bowtie2 -> organelles
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+[2026-10-20 22:31:39] SRR29854842: 60530 of 21444624 pairs organelle-like (32483 at MAPQ>=20)
+[2026-10-20 22:31:39] Step 4 complete: results/02_host/organelles

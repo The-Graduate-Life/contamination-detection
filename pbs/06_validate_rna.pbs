@@ -1,0 +1,23 @@
+#!/bin/bash
+# ASC job: full-depth competitive validation (step 6) for the RNA-seq run.
+# Builds the Bowtie2 panel index (645 Mb) if absent, then Stage A (21.4M pairs) and Stage B.
+#PBS -N cd_val_rna
+#PBS -q medium
+#PBS -l select=1:ncpus=16:mem=16gb
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+mkdir -p logs/06_validation
+# Reproducibility gate: ASC fastp output must match the local run exactly (21,444,624 pairs)
+EXPECTED_PAIRS=21444624
+got=$(awk -F'\t' '$1=="SRR29854842"{print $3}' results/01_qc/retention.tsv)
+if [[ "$got" != "$EXPECTED_PAIRS" ]]; then
+    echo "ABORT: trimmed pairs on ASC ($got) != local ($EXPECTED_PAIRS)"; exit 2
+fi
+echo "trimmed pair count matches local: $got"
+# /usr/bin/time is not installed on ASC nodes: use the bash builtin; peak memory comes from qstat -xf (resources_used.mem)
+time bash scripts/06_validate_candidates.sh SRR29854842 > logs/06_validation/asc_run_full.log 2>&1
+rc=$?
+echo "exit $rc"
+exit $rc   # propagate status so afterok dependencies behave

@@ -1,0 +1,15 @@
+== WGS primary records on chloroplast: MAPQ distribution
+20+ 833
+1-19 437318
+0 2259
+== WGS: are there cp-like nuclear segments? XS present (secondary hit) among cp MAPQ<20 records
+427354
+== largest unplaced scaffolds receiving many reads (top 8 by mapped reads)
+NC_092054.1	159361216	1041220	23461
+NC_092051.1	151242074	1013219	14639
+NC_092050.1	160028458	904626	13626
+NC_092046.1	149287806	872837	13583
+NC_092048.1	146301462	856030	13647
+NC_092052.1	134191082	854550	13052
+NC_092055.1	145034356	843805	12430
+NC_092053.1	135027066	826950	13399

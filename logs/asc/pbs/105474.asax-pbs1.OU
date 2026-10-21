@@ -1,0 +1,6 @@
+[2026-10-21 04:45:39] host=asax035 job=105474.asax-pbs1 threads=16 prefix=/scratch/aubfxp001/contamination_detection/conda/envs/contam
+
+real	39m55.934s
+user	327m32.488s
+sys	16m13.556s
+exit 0

@@ -1,0 +1,29 @@
+Stage A BAM; primary records on potyvirus references, paired, classify mate location
+TOTAL_records	297350
+potyvirus	294902	99.177%
+mate_unmapped	162	0.054%
+fusarium	125	0.042%
+host_decoy:XR_011879393.1	60	0.020%
+host_decoy:XM_025809869.3	20	0.007%
+host_decoy:XR_003816680.1	19	0.006%
+host_decoy:XR_011879407.1	15	0.005%
+host_decoy:XR_003159399.1	13	0.004%
+host_decoy:XM_025801449.3	11	0.004%
+host_decoy:XR_003159372.1	11	0.004%
+host_decoy:XR_003159395.1	11	0.004%
+== grouped mate classes (rRNA = XR_003816679.1 18S / XR_003816680.1 28S)
+TOTAL	297350
+potyvirus	294902	99.1767%
+host_other	2129	0.7160%
+mate_unmapped	162	0.0545%
+fusarium	125	0.0420%
+host_18S/28S_rRNA	25	0.0084%
+bradyrhizobium	7	0.0024%
+== chimeric (virus/host-rRNA) pairs by BCMV position (1-kb bins)
+      2 7000
+     23 9000
+== reads aligned end-to-end (CIGAR all M, NM<=2) spanning >=20 bp each side of the virus/host junction
+SRR29854842_k141_0	junction~598	spanning_reads_e2e=2	reads_overlapping=3459
+SRR29854842_k141_1	junction~524	spanning_reads_e2e=4	reads_overlapping=1078
+SRR29854842_k141_2	junction~251	spanning_reads_e2e=1	reads_overlapping=36479
+SRR29854842_k141_3	junction~312	spanning_reads_e2e=0	reads_overlapping=1

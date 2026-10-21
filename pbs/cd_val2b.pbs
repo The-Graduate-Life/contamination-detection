@@ -1,0 +1,14 @@
+#!/bin/bash
+# ASC job: WGS read-level test — Kraken2 on all trimmed pairs, Bacteria-assigned fragments vs host classes.
+#PBS -N cd_val2b
+#PBS -q large
+#PBS -l select=1:ncpus=16:mem=32gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+mkdir -p logs/15_kmer
+time bash scripts/15_kmer_bacteria_vs_host.sh SRR39022911 > logs/15_kmer/asc_SRR39022911.log 2>&1
+rc=$?
+echo "exit $rc"
+exit $rc

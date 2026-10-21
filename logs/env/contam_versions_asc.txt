@@ -1,0 +1,25 @@
+sra-tools 3.4.1
+FastQC v0.12.1
+multiqc 1.35
+fastp 1.4.0
+seqkit v2.14.0
+Version: 1.5-r133
+samtools 1.24
+bowtie2 2.5.5
+hisat2 2.2.1
+minimap2 2.31-r1302
+mosdepth 0.3.14
+Kraken version 2.17.2
+bracken Bracken v3.0.1
+bbmap 40.05
+MEGAHIT v1.2.9
+SPAdes genome assembler v4.3.0
+diamond version 2.2.8
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+blastn: 2.17.0+
+datasets datasets version: 18.39.0
+edirect 26.0
+python 3.11.17 pandas 3.0.6 matplotlib 3.11.2
+/scratch/aubfxp001/contamination_detection/conda/envs/contam/bin/python
+/scratch/aubfxp001/contamination_detection/conda/envs/contam/bin/bowtie2
+/scratch/aubfxp001/contamination_detection/conda/envs/contam/bin/samtools

@@ -1,0 +1,17 @@
+#!/bin/bash
+# ASC job: re-run of the summary parts of steps 14 (human) and 15 (k-mer vs host) after fixing the
+# stdin bug (pipe into 'python3 - <<EOF'); alignments/Kraken2 outputs are reused via completion markers.
+#PBS -N cd_val2c
+#PBS -q medium
+#PBS -l select=1:ncpus=4:mem=12gb
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+rc=0
+for run in SRR39022911 SRR29854842; do
+    bash scripts/14_human.sh $run > logs/14_human/asc_$run.rerun.log 2>&1 || { echo "human $run failed"; rc=1; }
+done
+bash scripts/15_kmer_bacteria_vs_host.sh SRR39022911 > logs/15_kmer/asc_SRR39022911.rerun.log 2>&1 || { echo "kmer test failed"; rc=1; }
+echo "exit $rc"
+exit $rc

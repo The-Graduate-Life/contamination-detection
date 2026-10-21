@@ -1,0 +1,5 @@
+group	label	contig	length	numreads	covbases	breadth_1x_pct	meandepth	meanbaseq	meanmapq	breadth_5x_pct	breadth_10x_pct	stageB_fragments	stageB_mean_identity
+fusarium	Fol_4287	n_contigs=85	61386934	927424	8438130	13.746	2.096	36.5	33.6	6.267	3.604	465375	0.9863
+potyvirus	BCMV_P02_peanut	n_contigs=1	10041	295809	10036	99.950	4337.260	36.5	43.9	99.930	99.841	148365	0.9951
+bradyrhizobium	Bgz_CCBAU51670	n_contigs=2	8138177	60731	172204	2.116	0.929	36.5	31.1	0.400	0.114	30541	0.9207
+polerovirus	CPPV2_RefSeq	n_contigs=1	5945	7488	5696	95.812	180.200	36.4	38.9	95.728	95.728	3744	0.9307

@@ -1,0 +1,28 @@
+[2026-10-20 21:33:43] SRR29854842: FastQC raw
+application/gzip
+application/gzip
+[2026-10-20 21:41:10] SRR29854842: fastp (Q15 cut_right, minlen 50, adapter PE detection, poly-G)
+[2026-10-20 21:53:27] SRR29854842: FastQC trimmed
+application/gzip
+application/gzip
+[2026-10-20 22:00:14] SRR29854842: subsample 500000 pairs (seqtk seed 11) from trimmed reads
+processed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  1 / 2 [==>---] ETA: 0s
+[1A[Jprocessed files:  1 / 2 [==>---] ETA: 0s
+[1A[Jprocessed files:  1 / 2 [==>---] ETA: 0s
+[1A[Jprocessed files:  1 / 2 [==>---] ETA: 0s
+[1A[Jprocessed files:  1 / 2 [==>---] ETA: 0s
+[1A[Jprocessed files:  1 / 2 [==>---] ETA: 0s
+[1A[Jprocessed files:  1 / 2 [==>---] ETA: 0s
+[1A[Jprocessed files:  2 / 2 [======] ETA: 0s
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done
+run	pairs_before	pairs_after	pct_pairs_retained	bases_before	bases_after	pct_bases_retained	q30_before	q30_after	adapter_trimmed_reads	dup_rate_est
+SRR29854842	21801972	21444624	98.36	6474020056	6342561080	97.97	0.9569	0.9648	13690	0.4159
+SRR39022911	9726260	8497015	87.36	2664995240	2237382863	83.95	0.8645	0.9020	1892387	0.0434
+[2026-10-20 22:07:09] Step 2 complete: results/01_qc/multiqc_report.html, results/01_qc/retention.tsv

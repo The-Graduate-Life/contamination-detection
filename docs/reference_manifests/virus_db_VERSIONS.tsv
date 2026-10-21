@@ -1,0 +1,8 @@
+database	source	version	date	md5
+refseq_viral_protein	https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/viral.1.protein.faa.gz	release_237	2026-10-20	18d7a13e3d95d7dca073edbbcf290e1f
+pfam_hmm	InterPro API PF00680	RdRP_1	2026-10-20	bc4adb7b0daa12e173974ce90ec78c66
+pfam_hmm	InterPro API PF02123	RdRP_4	2026-10-20	f9210426b6d038df8de9f5152c26b422
+pfam_hmm	InterPro API PF00978	RdRP_2	2026-10-20	c7ae79a370cf0237bc7bf8e6a98da4a1
+pfam_hmm	InterPro API PF00998	RdRP_3	2026-10-20	2a77fd41c06781d174fc0a2775f7d001
+pfam_hmm	InterPro API PF05919	Mitovir_RNA_pol	2026-10-20	64b182898d7eedb9979ee3229f143378
+pfam_hmm	InterPro API PF00946	Mononeg_RNA_pol	2026-10-20	c6ca8908e3f8bb7ca715c3b4881e02b8

@@ -1,0 +1,31 @@
+# group	accession	type	label	role
+potyvirus	U05771.1	nuccore	PSV_U05771	candidate: peanut stripe virus (BCMV strain PSt)
+potyvirus	KF439722.1	nuccore	BCMV-PSt_Laixi_China	candidate: BCMV peanut stripe isolate, China
+potyvirus	ON843751.1	nuccore	BCMV_Jeonju-1_peanut	candidate: BCMV from A. hypogaea leaf, Korea
+potyvirus	OR734859.1	nuccore	BCMV_P02_peanut	candidate: BCMV MAG from A. hypogaea, Korea
+potyvirus	NC_003397.1	nuccore	BCMV_RefSeq	candidate: BCMV RefSeq (bean)
+potyvirus	NC_002600.1	nuccore	PeMoV_RefSeq	competitor: peanut mottle virus
+potyvirus	NC_004047.1	nuccore	BCMNV_RefSeq	competitor: bean common mosaic necrosis virus
+potyvirus	NC_002634.1	nuccore	SMV_RefSeq	competitor: soybean mosaic virus
+potyvirus	NC_004013.1	nuccore	CABMV_RefSeq	competitor: cowpea aphid-borne mosaic virus
+potyvirus	NC_003492.1	nuccore	BYMV_RefSeq	competitor: bean yellow mosaic virus
+polerovirus	NC_034247.1	nuccore	CPPV2_RefSeq	candidate: cowpea polerovirus 2 (STAT 'Polerovirus CPPV2')
+polerovirus	NC_076825.1	nuccore	GRAV_RefSeq	competitor: groundnut rosette assistor virus
+polerovirus	LC709260.1	nuccore	PBMYV_KE-6	competitor: phasey bean mild yellows virus
+polerovirus	OR734903.1	nuccore	BrYV_P15_peanut	competitor: Brassica yellows virus from A. hypogaea
+polerovirus	LC818997.1	nuccore	ArMoV_AC01	competitor: Arachis mottle-associated virus (A. pintoi)
+fusarium	GCF_000149955.1	assembly	Fol_4287	candidate: F. oxysporum f. sp. lycopersici 4287
+fusarium	GCA_000271745.2	assembly	Fox_NRRL32931	candidate: F. oxysporum NRRL 32931
+fusarium	GCF_000260195.1	assembly	Fod_NRRL54006	candidate: F. odoratissimum NRRL 54006
+fusarium	GCF_000149555.1	assembly	Fve_7600	competitor: F. verticillioides 7600
+fusarium	GCF_000151355.1	assembly	Fva_77-13-4	competitor: F. vanettenii (F. solani complex)
+fusarium	GCF_000240135.3	assembly	Fgr_PH-1	competitor: F. graminearum PH-1
+bradyrhizobium	GCF_015291705.1	assembly	Bara_CCBAU051107	candidate: B. arachidis (peanut symbiont)
+bradyrhizobium	GCF_004114915.1	assembly	Bgx_CCBAU53363	candidate: B. guangxiense (peanut symbiont)
+bradyrhizobium	GCF_004114955.1	assembly	Bgz_CCBAU51670	candidate: B. guangzhouense
+bradyrhizobium	GCF_004114935.1	assembly	Bzh_CCBAU51778	candidate: B. zhanjiangense
+bradyrhizobium	GCF_025200905.1	assembly	Byu_CB1024	candidate: B. yuanmingense
+bradyrhizobium	GCF_023278185.1	assembly	Bel_USDA76	competitor: B. elkanii USDA 76
+bradyrhizobium	GCF_001642675.1	assembly	Bdi_USDA110	competitor: B. diazoefficiens USDA 110
+host_decoy	GCF_003086295.3	assembly_rna	Ahyp_Tifrunner_gnm2_rna	decoy: A. hypogaea RefSeq transcripts (absorb conserved host reads)
+host_decoy	organelles	local	Ahyp_organelles	decoy: NC_037358.1 + MW448460.1

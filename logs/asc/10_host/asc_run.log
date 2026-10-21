@@ -1,0 +1,3 @@
+[2026-10-21 04:47:46] bowtie2-build host (2558162147 bp)
+[2026-10-21 05:11:00] hisat2-build host (splice annotation: 0)
+[2026-10-21 05:25:35] Step 10 complete: references/host

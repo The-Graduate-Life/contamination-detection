@@ -1,0 +1,6 @@
+group	fragments	fragments_mapq20	pct_trimmed	pct_candidate_hits	mean_identity	median_identity	pct_aligned_ge80	best_label	best_label_fragments	total_pairs	candidate_hit_fragments
+host_decoy	19904228	2821624	92.81687	2916.77213	0.9983	1.0000	98.86321	Ahyp_Tifrunner_gnm2_rna	19842859	21444624	682406
+fusarium	491970	20139	2.29414	72.09345	0.9909	1.0000	94.10980	Fol_4287	191627	21444624	682406
+potyvirus	148658	9	0.69322	21.78439	0.9978	1.0000	99.77129	BCMV_P02_peanut	86297	21444624	682406
+bradyrhizobium	37909	1011	0.17678	5.55520	0.9244	0.9189	73.30449	Bgz_CCBAU51670	8226	21444624	682406
+polerovirus	3869	2762	0.01804	0.56696	0.9408	0.9467	98.19075	CPPV2_RefSeq	3801	21444624	682406

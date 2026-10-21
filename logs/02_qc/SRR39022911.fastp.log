@@ -1,0 +1,55 @@
+Detecting adapter sequence for read1...
+>RNA_PCR_Primer_Index_8_(RPI8)
+TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACACTTGAATCTCGTATGCCGTCTTCTGCTTG
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+>Illumina Small RNA Adapter Read 2
+GATCGTCGGACTGTAGAACTCTGAACGTGTAGA
+
+Read1 before filtering:
+total reads: 9726260
+total bases: 1274140060
+Q20 bases: 1206931760(94.7252%)
+Q30 bases: 1124508612(88.2563%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 9726260
+total bases: 1390855180
+Q20 bases: 1289269734(92.6962%)
+Q30 bases: 1179296123(84.7893%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 8497015
+total bases: 1078222699
+Q20 bases: 1047832218(97.1814%)
+Q30 bases: 987917730(91.6246%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 8497015
+total bases: 1159160164
+Q20 bases: 1111538920(95.8917%)
+Q30 bases: 1030140858(88.8696%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 16994030
+reads failed due to low quality: 168514
+reads failed due to too many N: 748
+reads failed due to too short: 2281960
+reads failed due to adapter dimer: 7268
+reads with adapter trimmed: 1892387
+bases trimmed due to adapters: 80479793
+
+Duplication rate: 4.34009%
+
+Insert size peak (evaluated by paired-end reads): 131
+
+JSON report: results/01_qc/fastp/SRR39022911.fastp.json
+HTML report: results/01_qc/fastp/SRR39022911.fastp.html
+
+fastp -i data/raw/SRR39022911_1.fastq.gz -I data/raw/SRR39022911_2.fastq.gz -o data/trimmed/SRR39022911_1.trim.fastq.gz.tmp -O data/trimmed/SRR39022911_2.trim.fastq.gz.tmp --detect_adapter_for_pe --trim_poly_g --cut_right --cut_right_window_size 4 --cut_right_mean_quality 15 --length_required 50 --n_base_limit 5 --thread 6 --json results/01_qc/fastp/SRR39022911.fastp.json --html results/01_qc/fastp/SRR39022911.fastp.html 
+fastp v1.4.0, time used: 558 seconds

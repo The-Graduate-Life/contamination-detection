@@ -1,0 +1,18 @@
+[2026-10-20 23:49:03] SRR29854842: FastQC raw
+application/gzip
+application/gzip
+[2026-10-20 23:52:47] SRR29854842: fastp (Q15 cut_right, minlen 50, adapter PE detection, poly-G)
+[2026-10-20 23:56:04] SRR29854842: FastQC trimmed
+application/gzip
+application/gzip
+[2026-10-20 23:59:40] SRR29854842: subsample 500000 pairs (seqtk seed 11) from trimmed reads
+processed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  2 / 2 [======] ETA: 0s
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done
+run	pairs_before	pairs_after	pct_pairs_retained	bases_before	bases_after	pct_bases_retained	q30_before	q30_after	adapter_trimmed_reads	dup_rate_est
+SRR29854842	21801972	21444624	98.36	6474020056	6342561080	97.97	0.9569	0.9648	13690	0.4159
+[2026-10-21 00:01:52] Step 2 complete: results/01_qc/multiqc_report.html, results/01_qc/retention.tsv

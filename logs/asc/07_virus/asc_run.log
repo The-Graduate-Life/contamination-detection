@@ -1,0 +1,4 @@
+[2026-10-21 01:37:38] SRR29854842: MEGAHIT on fragments from: polerovirus potyvirus
+[33m[WARN][0m you may switch on flag -g/--remove-gaps to remove spaces
+[bam_sort_core] merging from 0 files and 2 in-memory blocks...
+[2026-10-21 01:42:52] Step 7 complete for SRR29854842: results/05_virus/SRR29854842

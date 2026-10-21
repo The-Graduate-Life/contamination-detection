@@ -1,0 +1,15 @@
+#!/bin/bash
+# ASC job: QC + fastp + subsample for the RNA-seq run (same fastp 1.4.0 and parameters as local).
+# Reads must already be downloaded and verified (scripts/01_download_verify.sh on the login node).
+#PBS -N cd_qc_rna
+#PBS -q medium
+#PBS -l select=1:ncpus=8:mem=8gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+mkdir -p logs/02_qc
+bash scripts/02_qc_trim_subsample.sh SRR29854842 > logs/02_qc/asc_run_rna.log 2>&1
+rc=$?
+echo "exit $rc"
+exit $rc   # propagate status so afterok dependencies behave

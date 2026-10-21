@@ -1,0 +1,51 @@
+# Large data — never committed (raw reads are re-downloadable and MD5-verified by scripts/01)
+data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# References, indexes and databases (rebuilt by scripts/05, 07a, 09, 10, 12)
+references/
+databases/
+*.bt2
+*.bt2l
+*.ht2
+*.ht2l
+*.k2d
+*.dmnd
+*.h3[fimp]
+*.n[a-z][a-z]
+*.n[0-9][0-9].*
+
+# Alignments and bulky intermediates
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+results/**/megahit/
+results/**/stageB/**/*.fasta
+results/**/names*.txt
+results/**/*.fragments.tsv.gz
+results/**/*.k2out.gz
+results/01_qc/fastqc_raw/*.zip
+results/01_qc/fastqc_trimmed/*.zip
+
+# Environments, caches, restart markers, temp
+conda/
+.snakemake/
+__pycache__/
+*.pyc
+logs/.done/
+*.tmp
+*.tmp.*
+.DS_Store
+
+# Credentials (never)
+.ssh/
+*.pem
+*.key
+.env
+.Rhistory

@@ -1,0 +1,14 @@
+#!/bin/bash
+# ASC job: host partition for WGS (Bowtie2 --sensitive)
+#PBS -N cd_host_wgs
+#PBS -q medium
+#PBS -l select=1:ncpus=16:mem=16gb
+#PBS -l walltime=12:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+mkdir -p logs/11_host
+time bash scripts/11_host_map.sh SRR39022911 dna > logs/11_host/asc_wgs.log 2>&1
+rc=$?
+echo "exit $rc"
+exit $rc   # propagate status so afterok dependencies behave

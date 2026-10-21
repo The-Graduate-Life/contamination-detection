@@ -1,0 +1,7 @@
+run	set	host_class	fragments	pct_of_set
+SRR39022911	bacteria_clade	ambiguous_nuclear	164315	82.90
+SRR39022911	bacteria_clade	ambiguous_organelle_primary	24405	12.31
+SRR39022911	bacteria_clade	nuclear_confident	8514	4.30
+SRR39022911	bacteria_clade	unmapped	960	0.48
+SRR39022911	bacteria_clade	organellar_confident	13	0.01
+SRR39022911	bacteria_clade	TOTAL_in_set	198207	100.00

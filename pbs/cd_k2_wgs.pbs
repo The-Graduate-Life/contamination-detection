@@ -1,0 +1,14 @@
+#!/bin/bash
+# ASC job: Kraken2/Bracken PlusPF-16 on WGS non-host pool
+#PBS -N cd_k2_wgs
+#PBS -q large
+#PBS -l select=1:ncpus=16:mem=32gb
+#PBS -l walltime=06:00:00
+#PBS -j oe
+#PBS -r n
+source /scratch/aubfxp001/contamination_detection/pbs/asc_env.sh
+mkdir -p logs/12_kraken2
+bash scripts/12_kraken2.sh SRR39022911 137 > logs/12_kraken2/asc_wgs.log 2>&1
+rc=$?
+echo "exit $rc"
+exit $rc   # propagate status so afterok dependencies behave
